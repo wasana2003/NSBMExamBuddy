@@ -196,13 +196,14 @@
             // 
             // csharpeQ6btn4
             // 
+            this.csharpeQ6btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
             this.csharpeQ6btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ6btn4.Location = new System.Drawing.Point(302, 555);
             this.csharpeQ6btn4.Name = "csharpeQ6btn4";
             this.csharpeQ6btn4.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ6btn4.TabIndex = 253;
             this.csharpeQ6btn4.Text = "Displaying Data Using DataGridView";
-            this.csharpeQ6btn4.UseVisualStyleBackColor = true;
+            this.csharpeQ6btn4.UseVisualStyleBackColor = false;
             this.csharpeQ6btn4.Click += new System.EventHandler(this.csharpeQ6btn4_Click);
             // 
             // CSharpe_Form6
