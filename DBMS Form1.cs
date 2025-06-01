@@ -48,5 +48,15 @@ namespace NSBMExamBuddy
             quiz.Show();
             this.Hide();
         }
+
+        private void dbmsQ1btn3_Click(object sender, EventArgs e)
+        {
+            int submoduleID = 116;
+            int userID = CurrentUser.ID;
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID);
+            quiz.Show();
+            this.Hide();
+        }
     }
 }

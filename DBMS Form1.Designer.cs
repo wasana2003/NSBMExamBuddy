@@ -184,6 +184,7 @@
             this.dbmsQ1btn3.TabIndex = 64;
             this.dbmsQ1btn3.Text = "III. File-Based Systems Overview";
             this.dbmsQ1btn3.UseVisualStyleBackColor = true;
+            this.dbmsQ1btn3.Click += new System.EventHandler(this.dbmsQ1btn3_Click);
             // 
             // dbmsQ1btn2
             // 
