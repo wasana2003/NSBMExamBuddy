@@ -42,7 +42,6 @@
             this.algoQ1btn2 = new System.Windows.Forms.Button();
             this.algoQ1btn1 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.streambtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel5.SuspendLayout();
@@ -96,7 +95,6 @@
             this.panel5.Controls.Add(this.signoutbtn);
             this.panel5.Controls.Add(this.button1);
             this.panel5.Controls.Add(this.modulebtn);
-            this.panel5.Controls.Add(this.streambtn);
             this.panel5.Controls.Add(this.dashboardbtn);
             this.panel5.Location = new System.Drawing.Point(15, 99);
             this.panel5.Name = "panel5";
@@ -105,23 +103,25 @@
             // 
             // infobtn
             // 
+            this.infobtn.BackColor = System.Drawing.Color.MediumPurple;
             this.infobtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.infobtn.Location = new System.Drawing.Point(0, 440);
             this.infobtn.Name = "infobtn";
             this.infobtn.Size = new System.Drawing.Size(200, 43);
             this.infobtn.TabIndex = 12;
             this.infobtn.Text = "Instructions / About\t";
-            this.infobtn.UseVisualStyleBackColor = true;
+            this.infobtn.UseVisualStyleBackColor = false;
             // 
             // signoutbtn
             // 
+            this.signoutbtn.BackColor = System.Drawing.Color.MediumPurple;
             this.signoutbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signoutbtn.Location = new System.Drawing.Point(40, 527);
             this.signoutbtn.Name = "signoutbtn";
             this.signoutbtn.Size = new System.Drawing.Size(114, 34);
             this.signoutbtn.TabIndex = 11;
             this.signoutbtn.Text = "Log Out";
-            this.signoutbtn.UseVisualStyleBackColor = true;
+            this.signoutbtn.UseVisualStyleBackColor = false;
             // 
             // modulebtn
             // 
@@ -183,24 +183,14 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.MediumPurple;
             this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(0, 358);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 43);
             this.button1.TabIndex = 8;
             this.button1.Text = "My Progress\t";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // streambtn
-            // 
-            this.streambtn.BackColor = System.Drawing.Color.MediumPurple;
-            this.streambtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.streambtn.Location = new System.Drawing.Point(0, 278);
-            this.streambtn.Name = "streambtn";
-            this.streambtn.Size = new System.Drawing.Size(200, 43);
-            this.streambtn.TabIndex = 10;
-            this.streambtn.Text = "My Stream";
-            this.streambtn.UseVisualStyleBackColor = false;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // ALGO_Form1
             // 
@@ -239,6 +229,5 @@
         private System.Windows.Forms.Button algoQ1btn1;
         private System.Windows.Forms.Label displayuser;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button streambtn;
     }
 }
