@@ -36,12 +36,12 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.infobtn = new System.Windows.Forms.Button();
             this.signoutbtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.modulebtn = new System.Windows.Forms.Button();
             this.dashboardbtn = new System.Windows.Forms.Button();
             this.algoQ1btn3 = new System.Windows.Forms.Button();
             this.algoQ1btn2 = new System.Windows.Forms.Button();
             this.algoQ1btn1 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel5.SuspendLayout();
@@ -98,14 +98,14 @@
             this.panel5.Controls.Add(this.dashboardbtn);
             this.panel5.Location = new System.Drawing.Point(15, 99);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(200, 632);
+            this.panel5.Size = new System.Drawing.Size(200, 571);
             this.panel5.TabIndex = 91;
             // 
             // infobtn
             // 
             this.infobtn.BackColor = System.Drawing.Color.MediumPurple;
             this.infobtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.infobtn.Location = new System.Drawing.Point(0, 440);
+            this.infobtn.Location = new System.Drawing.Point(0, 367);
             this.infobtn.Name = "infobtn";
             this.infobtn.Size = new System.Drawing.Size(200, 43);
             this.infobtn.TabIndex = 12;
@@ -116,12 +116,23 @@
             // 
             this.signoutbtn.BackColor = System.Drawing.Color.MediumPurple;
             this.signoutbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signoutbtn.Location = new System.Drawing.Point(40, 527);
+            this.signoutbtn.Location = new System.Drawing.Point(42, 456);
             this.signoutbtn.Name = "signoutbtn";
             this.signoutbtn.Size = new System.Drawing.Size(114, 34);
             this.signoutbtn.TabIndex = 11;
             this.signoutbtn.Text = "Log Out";
             this.signoutbtn.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.MediumPurple;
+            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(0, 283);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(200, 43);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "My Progress\t";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // modulebtn
             // 
@@ -181,23 +192,12 @@
             this.algoQ1btn1.UseVisualStyleBackColor = false;
             this.algoQ1btn1.Click += new System.EventHandler(this.algoQ1btn1_Click);
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.MediumPurple;
-            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(0, 358);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 43);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "My Progress\t";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // ALGO_Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
-            this.ClientSize = new System.Drawing.Size(904, 741);
+            this.ClientSize = new System.Drawing.Size(891, 691);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.algoQ1btn3);

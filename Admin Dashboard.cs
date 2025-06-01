@@ -35,5 +35,10 @@ namespace NSBMExamBuddy
             view_User_Info.Show();
             this.Hide();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -33,16 +33,16 @@
             this.displayuser = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.algoQ2btn3 = new System.Windows.Forms.Button();
+            this.algoQ2btn2 = new System.Windows.Forms.Button();
+            this.algoQ2btn1 = new System.Windows.Forms.Button();
+            this.algoQ2btn4 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.infobtn = new System.Windows.Forms.Button();
             this.signoutbtn = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.modulebtn = new System.Windows.Forms.Button();
             this.dashboardbtn = new System.Windows.Forms.Button();
-            this.algoQ2btn3 = new System.Windows.Forms.Button();
-            this.algoQ2btn2 = new System.Windows.Forms.Button();
-            this.algoQ2btn1 = new System.Windows.Forms.Button();
-            this.algoQ2btn4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel5.SuspendLayout();
@@ -90,73 +90,6 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.infobtn);
-            this.panel5.Controls.Add(this.signoutbtn);
-            this.panel5.Controls.Add(this.button1);
-            this.panel5.Controls.Add(this.modulebtn);
-            this.panel5.Controls.Add(this.dashboardbtn);
-            this.panel5.Location = new System.Drawing.Point(15, 99);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(200, 570);
-            this.panel5.TabIndex = 96;
-            // 
-            // infobtn
-            // 
-            this.infobtn.BackColor = System.Drawing.Color.MediumPurple;
-            this.infobtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.infobtn.Location = new System.Drawing.Point(0, 358);
-            this.infobtn.Name = "infobtn";
-            this.infobtn.Size = new System.Drawing.Size(200, 43);
-            this.infobtn.TabIndex = 12;
-            this.infobtn.Text = "Instructions / About\t";
-            this.infobtn.UseVisualStyleBackColor = false;
-            // 
-            // signoutbtn
-            // 
-            this.signoutbtn.BackColor = System.Drawing.Color.MediumPurple;
-            this.signoutbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signoutbtn.Location = new System.Drawing.Point(37, 446);
-            this.signoutbtn.Name = "signoutbtn";
-            this.signoutbtn.Size = new System.Drawing.Size(114, 34);
-            this.signoutbtn.TabIndex = 11;
-            this.signoutbtn.Text = "Log Out";
-            this.signoutbtn.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.MediumPurple;
-            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(0, 276);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 43);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "My Progress\t";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // modulebtn
-            // 
-            this.modulebtn.BackColor = System.Drawing.Color.MediumPurple;
-            this.modulebtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modulebtn.Location = new System.Drawing.Point(0, 198);
-            this.modulebtn.Name = "modulebtn";
-            this.modulebtn.Size = new System.Drawing.Size(200, 43);
-            this.modulebtn.TabIndex = 9;
-            this.modulebtn.Text = "Modules";
-            this.modulebtn.UseVisualStyleBackColor = false;
-            // 
-            // dashboardbtn
-            // 
-            this.dashboardbtn.BackColor = System.Drawing.Color.MediumPurple;
-            this.dashboardbtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dashboardbtn.Location = new System.Drawing.Point(0, 120);
-            this.dashboardbtn.Name = "dashboardbtn";
-            this.dashboardbtn.Size = new System.Drawing.Size(200, 43);
-            this.dashboardbtn.TabIndex = 7;
-            this.dashboardbtn.Text = "Dashboard";
-            this.dashboardbtn.UseVisualStyleBackColor = false;
-            // 
             // algoQ2btn3
             // 
             this.algoQ2btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -201,15 +134,82 @@
             this.algoQ2btn4.UseVisualStyleBackColor = true;
             this.algoQ2btn4.Click += new System.EventHandler(this.algoQ2btn4_Click);
             // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.infobtn);
+            this.panel5.Controls.Add(this.signoutbtn);
+            this.panel5.Controls.Add(this.button1);
+            this.panel5.Controls.Add(this.modulebtn);
+            this.panel5.Controls.Add(this.dashboardbtn);
+            this.panel5.Location = new System.Drawing.Point(15, 99);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(200, 571);
+            this.panel5.TabIndex = 101;
+            // 
+            // infobtn
+            // 
+            this.infobtn.BackColor = System.Drawing.Color.MediumPurple;
+            this.infobtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.infobtn.Location = new System.Drawing.Point(0, 367);
+            this.infobtn.Name = "infobtn";
+            this.infobtn.Size = new System.Drawing.Size(200, 43);
+            this.infobtn.TabIndex = 12;
+            this.infobtn.Text = "Instructions / About\t";
+            this.infobtn.UseVisualStyleBackColor = false;
+            // 
+            // signoutbtn
+            // 
+            this.signoutbtn.BackColor = System.Drawing.Color.MediumPurple;
+            this.signoutbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signoutbtn.Location = new System.Drawing.Point(42, 456);
+            this.signoutbtn.Name = "signoutbtn";
+            this.signoutbtn.Size = new System.Drawing.Size(114, 34);
+            this.signoutbtn.TabIndex = 11;
+            this.signoutbtn.Text = "Log Out";
+            this.signoutbtn.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.MediumPurple;
+            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(0, 283);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(200, 43);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "My Progress\t";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // modulebtn
+            // 
+            this.modulebtn.BackColor = System.Drawing.Color.MediumPurple;
+            this.modulebtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modulebtn.Location = new System.Drawing.Point(0, 198);
+            this.modulebtn.Name = "modulebtn";
+            this.modulebtn.Size = new System.Drawing.Size(200, 43);
+            this.modulebtn.TabIndex = 9;
+            this.modulebtn.Text = "Modules";
+            this.modulebtn.UseVisualStyleBackColor = false;
+            // 
+            // dashboardbtn
+            // 
+            this.dashboardbtn.BackColor = System.Drawing.Color.MediumPurple;
+            this.dashboardbtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashboardbtn.Location = new System.Drawing.Point(0, 120);
+            this.dashboardbtn.Name = "dashboardbtn";
+            this.dashboardbtn.Size = new System.Drawing.Size(200, 43);
+            this.dashboardbtn.TabIndex = 7;
+            this.dashboardbtn.Text = "Dashboard";
+            this.dashboardbtn.UseVisualStyleBackColor = false;
+            // 
             // Algo_Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
-            this.ClientSize = new System.Drawing.Size(918, 689);
+            this.ClientSize = new System.Drawing.Size(891, 691);
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.algoQ2btn4);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel5);
             this.Controls.Add(this.algoQ2btn3);
             this.Controls.Add(this.algoQ2btn2);
             this.Controls.Add(this.algoQ2btn1);
@@ -229,16 +229,16 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button algoQ2btn3;
+        private System.Windows.Forms.Button algoQ2btn2;
+        private System.Windows.Forms.Button algoQ2btn1;
+        private System.Windows.Forms.Button algoQ2btn4;
+        private System.Windows.Forms.Label displayuser;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button infobtn;
         private System.Windows.Forms.Button signoutbtn;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button modulebtn;
         private System.Windows.Forms.Button dashboardbtn;
-        private System.Windows.Forms.Button algoQ2btn3;
-        private System.Windows.Forms.Button algoQ2btn2;
-        private System.Windows.Forms.Button algoQ2btn1;
-        private System.Windows.Forms.Button algoQ2btn4;
-        private System.Windows.Forms.Label displayuser;
     }
 }
