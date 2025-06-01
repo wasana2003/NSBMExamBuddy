@@ -20,7 +20,12 @@ namespace NSBMExamBuddy
 
         private void pfQ7btn2_Click(object sender, EventArgs e)
         {
+            int submoduleID = 115;
+            int userID = CurrentUser.ID;
 
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID);
+            quiz.Show();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
