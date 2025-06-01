@@ -146,11 +146,13 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(200, 571);
             this.panel2.TabIndex = 258;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.MediumPurple;
             this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button2.Location = new System.Drawing.Point(0, 367);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(200, 43);
@@ -162,6 +164,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.MediumPurple;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button3.Location = new System.Drawing.Point(42, 456);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(114, 34);
@@ -173,6 +176,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.MediumPurple;
             this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button4.Location = new System.Drawing.Point(0, 283);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(200, 43);
@@ -184,6 +188,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.MediumPurple;
             this.button5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button5.Location = new System.Drawing.Point(0, 198);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(200, 43);
@@ -195,6 +200,7 @@
             // 
             this.button6.BackColor = System.Drawing.Color.MediumPurple;
             this.button6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button6.Location = new System.Drawing.Point(0, 120);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(200, 43);
@@ -207,7 +213,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
-            this.ClientSize = new System.Drawing.Size(904, 741);
+            this.ClientSize = new System.Drawing.Size(904, 691);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.introQ7btn4);
