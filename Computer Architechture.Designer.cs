@@ -42,7 +42,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.ca7btn = new System.Windows.Forms.Button();
             this.modulebtn = new System.Windows.Forms.Button();
-            this.streambtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.ca4btn = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
@@ -86,7 +85,7 @@
             // signoutbtn
             // 
             this.signoutbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signoutbtn.Location = new System.Drawing.Point(40, 527);
+            this.signoutbtn.Location = new System.Drawing.Point(44, 483);
             this.signoutbtn.Name = "signoutbtn";
             this.signoutbtn.Size = new System.Drawing.Size(114, 34);
             this.signoutbtn.TabIndex = 11;
@@ -216,16 +215,6 @@
             this.modulebtn.Text = "Modules";
             this.modulebtn.UseVisualStyleBackColor = true;
             // 
-            // streambtn
-            // 
-            this.streambtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.streambtn.Location = new System.Drawing.Point(0, 278);
-            this.streambtn.Name = "streambtn";
-            this.streambtn.Size = new System.Drawing.Size(200, 43);
-            this.streambtn.TabIndex = 10;
-            this.streambtn.Text = "My Stream";
-            this.streambtn.UseVisualStyleBackColor = true;
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.LightSteelBlue;
@@ -305,7 +294,6 @@
             this.panel5.Controls.Add(this.signoutbtn);
             this.panel5.Controls.Add(this.button1);
             this.panel5.Controls.Add(this.modulebtn);
-            this.panel5.Controls.Add(this.streambtn);
             this.panel5.Controls.Add(this.dashboardbtn);
             this.panel5.Location = new System.Drawing.Point(12, 97);
             this.panel5.Name = "panel5";
@@ -315,7 +303,7 @@
             // infobtn
             // 
             this.infobtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.infobtn.Location = new System.Drawing.Point(0, 440);
+            this.infobtn.Location = new System.Drawing.Point(0, 383);
             this.infobtn.Name = "infobtn";
             this.infobtn.Size = new System.Drawing.Size(200, 43);
             this.infobtn.TabIndex = 12;
@@ -325,7 +313,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(0, 358);
+            this.button1.Location = new System.Drawing.Point(0, 291);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 43);
             this.button1.TabIndex = 8;
@@ -510,6 +498,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(1095, 741);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -562,7 +551,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button ca7btn;
         private System.Windows.Forms.Button modulebtn;
-        private System.Windows.Forms.Button streambtn;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button ca4btn;
         private System.Windows.Forms.Label label10;

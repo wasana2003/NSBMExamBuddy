@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CA_Form7));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.displayuser = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -43,7 +44,6 @@
             this.caQ7btn3 = new System.Windows.Forms.Button();
             this.caQ7btn2 = new System.Windows.Forms.Button();
             this.caQ7tn1 = new System.Windows.Forms.Button();
-            this.displayuser = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel5.SuspendLayout();
@@ -58,6 +58,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(880, 84);
             this.panel1.TabIndex = 160;
+            // 
+            // displayuser
+            // 
+            this.displayuser.AutoSize = true;
+            this.displayuser.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.displayuser.Location = new System.Drawing.Point(656, 30);
+            this.displayuser.Name = "displayuser";
+            this.displayuser.Size = new System.Drawing.Size(48, 23);
+            this.displayuser.TabIndex = 4;
+            this.displayuser.Text = "User";
             // 
             // label1
             // 
@@ -194,20 +204,11 @@
             this.caQ7tn1.Text = "I. Computer Basics and Architecture";
             this.caQ7tn1.UseVisualStyleBackColor = true;
             // 
-            // displayuser
-            // 
-            this.displayuser.AutoSize = true;
-            this.displayuser.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.displayuser.Location = new System.Drawing.Point(656, 30);
-            this.displayuser.Name = "displayuser";
-            this.displayuser.Size = new System.Drawing.Size(48, 23);
-            this.displayuser.TabIndex = 4;
-            this.displayuser.Text = "User";
-            // 
             // CA_Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(904, 741);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel5);
