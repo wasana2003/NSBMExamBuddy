@@ -166,13 +166,14 @@
             // 
             // introQ7btn4
             // 
+            this.introQ7btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
             this.introQ7btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ7btn4.Location = new System.Drawing.Point(302, 539);
             this.introQ7btn4.Name = "introQ7btn4";
             this.introQ7btn4.Size = new System.Drawing.Size(483, 43);
             this.introQ7btn4.TabIndex = 47;
             this.introQ7btn4.Text = "IV. Best Practices to Protect from Cyber Threats";
-            this.introQ7btn4.UseVisualStyleBackColor = true;
+            this.introQ7btn4.UseVisualStyleBackColor = false;
             this.introQ7btn4.Click += new System.EventHandler(this.introQ7btn4_Click);
             // 
             // introQ7btn3

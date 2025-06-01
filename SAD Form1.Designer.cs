@@ -185,13 +185,14 @@
             // 
             // sadQ1btn1
             // 
+            this.sadQ1btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
             this.sadQ1btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sadQ1btn1.Location = new System.Drawing.Point(302, 197);
             this.sadQ1btn1.Name = "sadQ1btn1";
             this.sadQ1btn1.Size = new System.Drawing.Size(483, 43);
             this.sadQ1btn1.TabIndex = 174;
             this.sadQ1btn1.Text = "I. Introduction to Systems\n";
-            this.sadQ1btn1.UseVisualStyleBackColor = true;
+            this.sadQ1btn1.UseVisualStyleBackColor = false;
             this.sadQ1btn1.Click += new System.EventHandler(this.sadQ1btn1_Click);
             // 
             // SAD_Form1

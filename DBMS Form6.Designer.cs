@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DBMS_Form6));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.displayuser = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dbmsQ6btn4 = new System.Windows.Forms.Button();
@@ -43,7 +44,6 @@
             this.dbmsQ6btn3 = new System.Windows.Forms.Button();
             this.dbmsQ6btn2 = new System.Windows.Forms.Button();
             this.dbmsQ6btn1 = new System.Windows.Forms.Button();
-            this.displayuser = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel5.SuspendLayout();
@@ -58,6 +58,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(880, 84);
             this.panel1.TabIndex = 84;
+            // 
+            // displayuser
+            // 
+            this.displayuser.AutoSize = true;
+            this.displayuser.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.displayuser.Location = new System.Drawing.Point(691, 32);
+            this.displayuser.Name = "displayuser";
+            this.displayuser.Size = new System.Drawing.Size(48, 23);
+            this.displayuser.TabIndex = 5;
+            this.displayuser.Text = "User";
             // 
             // label1
             // 
@@ -194,20 +204,11 @@
             this.dbmsQ6btn1.Text = "I. SQL Basics and Data Definition";
             this.dbmsQ6btn1.UseVisualStyleBackColor = true;
             // 
-            // displayuser
-            // 
-            this.displayuser.AutoSize = true;
-            this.displayuser.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.displayuser.Location = new System.Drawing.Point(691, 32);
-            this.displayuser.Name = "displayuser";
-            this.displayuser.Size = new System.Drawing.Size(48, 23);
-            this.displayuser.TabIndex = 5;
-            this.displayuser.Text = "User";
-            // 
             // DBMS_Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(904, 741);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dbmsQ6btn4);

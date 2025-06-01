@@ -228,13 +228,14 @@
             // 
             // sad1btn
             // 
+            this.sad1btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
             this.sad1btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sad1btn.Location = new System.Drawing.Point(38, 76);
             this.sad1btn.Name = "sad1btn";
             this.sad1btn.Size = new System.Drawing.Size(114, 34);
             this.sad1btn.TabIndex = 11;
             this.sad1btn.Text = "Try";
-            this.sad1btn.UseVisualStyleBackColor = true;
+            this.sad1btn.UseVisualStyleBackColor = false;
             this.sad1btn.Click += new System.EventHandler(this.sad1btn_Click);
             // 
             // panel6

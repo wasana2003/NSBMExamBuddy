@@ -30,21 +30,21 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.nSBMExamBuddyDataSet = new NSBMExamBuddy.NSBMExamBuddyDataSet();
-            this.userScoresBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.userScoresTableAdapter = new NSBMExamBuddy.NSBMExamBuddyDataSetTableAdapters.UserScoresTableAdapter();
             this.scoreIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.submoduleIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.scoreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dateTakenDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.userScoresBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.nSBMExamBuddyDataSet = new NSBMExamBuddy.NSBMExamBuddyDataSet();
+            this.userScoresTableAdapter = new NSBMExamBuddy.NSBMExamBuddyDataSetTableAdapters.UserScoresTableAdapter();
             this.label1 = new System.Windows.Forms.Label();
             this.enteruserid = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.displayusername = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nSBMExamBuddyDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.userScoresBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nSBMExamBuddyDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -63,20 +63,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(544, 259);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // nSBMExamBuddyDataSet
-            // 
-            this.nSBMExamBuddyDataSet.DataSetName = "NSBMExamBuddyDataSet";
-            this.nSBMExamBuddyDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // userScoresBindingSource
-            // 
-            this.userScoresBindingSource.DataMember = "UserScores";
-            this.userScoresBindingSource.DataSource = this.nSBMExamBuddyDataSet;
-            // 
-            // userScoresTableAdapter
-            // 
-            this.userScoresTableAdapter.ClearBeforeFill = true;
             // 
             // scoreIDDataGridViewTextBoxColumn
             // 
@@ -108,6 +94,20 @@
             this.dateTakenDataGridViewTextBoxColumn.DataPropertyName = "DateTaken";
             this.dateTakenDataGridViewTextBoxColumn.HeaderText = "DateTaken";
             this.dateTakenDataGridViewTextBoxColumn.Name = "dateTakenDataGridViewTextBoxColumn";
+            // 
+            // userScoresBindingSource
+            // 
+            this.userScoresBindingSource.DataMember = "UserScores";
+            this.userScoresBindingSource.DataSource = this.nSBMExamBuddyDataSet;
+            // 
+            // nSBMExamBuddyDataSet
+            // 
+            this.nSBMExamBuddyDataSet.DataSetName = "NSBMExamBuddyDataSet";
+            this.nSBMExamBuddyDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // userScoresTableAdapter
+            // 
+            this.userScoresTableAdapter.ClearBeforeFill = true;
             // 
             // label1
             // 
@@ -148,6 +148,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(800, 676);
             this.Controls.Add(this.displayusername);
             this.Controls.Add(this.button1);
@@ -158,8 +159,8 @@
             this.Text = "View_User_Progress";
             this.Load += new System.EventHandler(this.View_User_Progress_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nSBMExamBuddyDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.userScoresBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nSBMExamBuddyDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
