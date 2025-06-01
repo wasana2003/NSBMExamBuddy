@@ -36,13 +36,13 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.infobtn = new System.Windows.Forms.Button();
             this.signoutbtn = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.modulebtn = new System.Windows.Forms.Button();
-            this.streambtn = new System.Windows.Forms.Button();
             this.dashboardbtn = new System.Windows.Forms.Button();
             this.algoQ1btn3 = new System.Windows.Forms.Button();
             this.algoQ1btn2 = new System.Windows.Forms.Button();
             this.algoQ1btn1 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.streambtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel5.SuspendLayout();
@@ -123,6 +123,64 @@
             this.signoutbtn.Text = "Log Out";
             this.signoutbtn.UseVisualStyleBackColor = true;
             // 
+            // modulebtn
+            // 
+            this.modulebtn.BackColor = System.Drawing.Color.MediumPurple;
+            this.modulebtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modulebtn.Location = new System.Drawing.Point(0, 198);
+            this.modulebtn.Name = "modulebtn";
+            this.modulebtn.Size = new System.Drawing.Size(200, 43);
+            this.modulebtn.TabIndex = 9;
+            this.modulebtn.Text = "Modules";
+            this.modulebtn.UseVisualStyleBackColor = false;
+            // 
+            // dashboardbtn
+            // 
+            this.dashboardbtn.BackColor = System.Drawing.Color.MediumPurple;
+            this.dashboardbtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashboardbtn.Location = new System.Drawing.Point(0, 120);
+            this.dashboardbtn.Name = "dashboardbtn";
+            this.dashboardbtn.Size = new System.Drawing.Size(200, 43);
+            this.dashboardbtn.TabIndex = 7;
+            this.dashboardbtn.Text = "Dashboard";
+            this.dashboardbtn.UseVisualStyleBackColor = false;
+            // 
+            // algoQ1btn3
+            // 
+            this.algoQ1btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.algoQ1btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.algoQ1btn3.Location = new System.Drawing.Point(302, 420);
+            this.algoQ1btn3.Name = "algoQ1btn3";
+            this.algoQ1btn3.Size = new System.Drawing.Size(483, 43);
+            this.algoQ1btn3.TabIndex = 94;
+            this.algoQ1btn3.Text = "III.Data Structures-Basics and Types";
+            this.algoQ1btn3.UseVisualStyleBackColor = false;
+            this.algoQ1btn3.Click += new System.EventHandler(this.algoQ1btn3_Click);
+            // 
+            // algoQ1btn2
+            // 
+            this.algoQ1btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.algoQ1btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.algoQ1btn2.Location = new System.Drawing.Point(302, 310);
+            this.algoQ1btn2.Name = "algoQ1btn2";
+            this.algoQ1btn2.Size = new System.Drawing.Size(483, 43);
+            this.algoQ1btn2.TabIndex = 93;
+            this.algoQ1btn2.Text = "II.Analysis of Algorithms";
+            this.algoQ1btn2.UseVisualStyleBackColor = false;
+            this.algoQ1btn2.Click += new System.EventHandler(this.algoQ1btn2_Click);
+            // 
+            // algoQ1btn1
+            // 
+            this.algoQ1btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.algoQ1btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.algoQ1btn1.Location = new System.Drawing.Point(302, 197);
+            this.algoQ1btn1.Name = "algoQ1btn1";
+            this.algoQ1btn1.Size = new System.Drawing.Size(483, 43);
+            this.algoQ1btn1.TabIndex = 92;
+            this.algoQ1btn1.Text = "I. Introduction to data science";
+            this.algoQ1btn1.UseVisualStyleBackColor = false;
+            this.algoQ1btn1.Click += new System.EventHandler(this.algoQ1btn1_Click);
+            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -133,68 +191,16 @@
             this.button1.Text = "My Progress\t";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // modulebtn
-            // 
-            this.modulebtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modulebtn.Location = new System.Drawing.Point(0, 198);
-            this.modulebtn.Name = "modulebtn";
-            this.modulebtn.Size = new System.Drawing.Size(200, 43);
-            this.modulebtn.TabIndex = 9;
-            this.modulebtn.Text = "Modules";
-            this.modulebtn.UseVisualStyleBackColor = true;
-            // 
             // streambtn
             // 
+            this.streambtn.BackColor = System.Drawing.Color.MediumPurple;
             this.streambtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.streambtn.Location = new System.Drawing.Point(0, 278);
             this.streambtn.Name = "streambtn";
             this.streambtn.Size = new System.Drawing.Size(200, 43);
             this.streambtn.TabIndex = 10;
             this.streambtn.Text = "My Stream";
-            this.streambtn.UseVisualStyleBackColor = true;
-            // 
-            // dashboardbtn
-            // 
-            this.dashboardbtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dashboardbtn.Location = new System.Drawing.Point(0, 120);
-            this.dashboardbtn.Name = "dashboardbtn";
-            this.dashboardbtn.Size = new System.Drawing.Size(200, 43);
-            this.dashboardbtn.TabIndex = 7;
-            this.dashboardbtn.Text = "Dashboard";
-            this.dashboardbtn.UseVisualStyleBackColor = true;
-            // 
-            // algoQ1btn3
-            // 
-            this.algoQ1btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.algoQ1btn3.Location = new System.Drawing.Point(302, 420);
-            this.algoQ1btn3.Name = "algoQ1btn3";
-            this.algoQ1btn3.Size = new System.Drawing.Size(483, 43);
-            this.algoQ1btn3.TabIndex = 94;
-            this.algoQ1btn3.Text = "III.Data Structures-Basics and Types";
-            this.algoQ1btn3.UseVisualStyleBackColor = true;
-            this.algoQ1btn3.Click += new System.EventHandler(this.algoQ1btn3_Click);
-            // 
-            // algoQ1btn2
-            // 
-            this.algoQ1btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.algoQ1btn2.Location = new System.Drawing.Point(302, 310);
-            this.algoQ1btn2.Name = "algoQ1btn2";
-            this.algoQ1btn2.Size = new System.Drawing.Size(483, 43);
-            this.algoQ1btn2.TabIndex = 93;
-            this.algoQ1btn2.Text = "II.Analysis of Algorithms";
-            this.algoQ1btn2.UseVisualStyleBackColor = true;
-            this.algoQ1btn2.Click += new System.EventHandler(this.algoQ1btn2_Click);
-            // 
-            // algoQ1btn1
-            // 
-            this.algoQ1btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.algoQ1btn1.Location = new System.Drawing.Point(302, 197);
-            this.algoQ1btn1.Name = "algoQ1btn1";
-            this.algoQ1btn1.Size = new System.Drawing.Size(483, 43);
-            this.algoQ1btn1.TabIndex = 92;
-            this.algoQ1btn1.Text = "I. Introduction to data science";
-            this.algoQ1btn1.UseVisualStyleBackColor = true;
-            this.algoQ1btn1.Click += new System.EventHandler(this.algoQ1btn1_Click);
+            this.streambtn.UseVisualStyleBackColor = false;
             // 
             // ALGO_Form1
             // 
@@ -226,13 +232,13 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button infobtn;
         private System.Windows.Forms.Button signoutbtn;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button modulebtn;
-        private System.Windows.Forms.Button streambtn;
         private System.Windows.Forms.Button dashboardbtn;
         private System.Windows.Forms.Button algoQ1btn3;
         private System.Windows.Forms.Button algoQ1btn2;
         private System.Windows.Forms.Button algoQ1btn1;
         private System.Windows.Forms.Label displayuser;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button streambtn;
     }
 }
