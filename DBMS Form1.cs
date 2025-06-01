@@ -33,5 +33,15 @@ namespace NSBMExamBuddy
             displayuser.Text = $"User :, {CurrentUser.Name}";
 
         }
+
+        private void dbmsQ1btn1_Click(object sender, EventArgs e)
+        {
+            int submoduleID = 114;
+            int userID = CurrentUser.ID;
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID);
+            quiz.Show();
+            this.Hide();
+        }
     }
 }

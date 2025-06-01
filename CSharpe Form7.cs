@@ -23,5 +23,10 @@ namespace NSBMExamBuddy
             displayuser.Text = $"User :, {CurrentUser.Name}";
 
         }
+
+        private void csharpeQ6btn4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

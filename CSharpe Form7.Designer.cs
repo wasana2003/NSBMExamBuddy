@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CSharpe_Form6));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.displayuser = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -43,7 +44,6 @@
             this.csharpeQ6btn2 = new System.Windows.Forms.Button();
             this.csharpeQ6btn1 = new System.Windows.Forms.Button();
             this.csharpeQ6btn4 = new System.Windows.Forms.Button();
-            this.displayuser = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel5.SuspendLayout();
@@ -58,6 +58,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(880, 84);
             this.panel1.TabIndex = 248;
+            // 
+            // displayuser
+            // 
+            this.displayuser.AutoSize = true;
+            this.displayuser.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.displayuser.Location = new System.Drawing.Point(706, 30);
+            this.displayuser.Name = "displayuser";
+            this.displayuser.Size = new System.Drawing.Size(48, 23);
+            this.displayuser.TabIndex = 5;
+            this.displayuser.Text = "User";
             // 
             // label1
             // 
@@ -193,16 +203,7 @@
             this.csharpeQ6btn4.TabIndex = 253;
             this.csharpeQ6btn4.Text = "Displaying Data Using DataGridView";
             this.csharpeQ6btn4.UseVisualStyleBackColor = true;
-            // 
-            // displayuser
-            // 
-            this.displayuser.AutoSize = true;
-            this.displayuser.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.displayuser.Location = new System.Drawing.Point(706, 30);
-            this.displayuser.Name = "displayuser";
-            this.displayuser.Size = new System.Drawing.Size(48, 23);
-            this.displayuser.TabIndex = 5;
-            this.displayuser.Text = "User";
+            this.csharpeQ6btn4.Click += new System.EventHandler(this.csharpeQ6btn4_Click);
             // 
             // CSharpe_Form6
             // 
