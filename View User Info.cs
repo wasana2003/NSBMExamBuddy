@@ -94,5 +94,12 @@ namespace NSBMExamBuddy
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Admin_Dashboard dashboard = new Admin_Dashboard();
+            dashboard.Show();
+            this.Hide();
+        }
     }
 }

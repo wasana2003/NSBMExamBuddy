@@ -114,9 +114,11 @@ namespace NSBMExamBuddy
             }
         }
 
-        
-
-       
+        public Intro_Q_set1(int submoduleID, int userID)
+        {
+            this.submoduleID = submoduleID;
+            this.userID = userID;
+        }
 
         private void Intro_Q_set1_Load(object sender, EventArgs e)
         {
@@ -200,7 +202,7 @@ namespace NSBMExamBuddy
                 else
                 {
                     MessageBox.Show("No matching submodule interface. Redirecting to Dashboard.");
-                    new Dashboard(userID).Show();
+                    new MainDashboard(userID).Show();
                 }
 
                 //Form subFormToShow = null;

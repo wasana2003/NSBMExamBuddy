@@ -75,5 +75,17 @@ namespace NSBMExamBuddy
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            Admin_Dashboard dashboard = new Admin_Dashboard();
+            dashboard.Show();
+            this.Hide();
+        }
     }
 }

@@ -100,6 +100,7 @@
             this.caQ7btn4.TabIndex = 165;
             this.caQ7btn4.Text = "IV. Instruction-Level Parallelism and Hazards";
             this.caQ7btn4.UseVisualStyleBackColor = false;
+            this.caQ7btn4.Click += new System.EventHandler(this.caQ7btn4_Click);
             // 
             // caQ7btn3
             // 
@@ -111,6 +112,7 @@
             this.caQ7btn3.TabIndex = 164;
             this.caQ7btn3.Text = "III. CPU Organization and Instruction Execution";
             this.caQ7btn3.UseVisualStyleBackColor = false;
+            this.caQ7btn3.Click += new System.EventHandler(this.caQ7btn3_Click);
             // 
             // caQ7btn2
             // 
@@ -122,6 +124,7 @@
             this.caQ7btn2.TabIndex = 163;
             this.caQ7btn2.Text = "II. Memory and System Bus Organization";
             this.caQ7btn2.UseVisualStyleBackColor = false;
+            this.caQ7btn2.Click += new System.EventHandler(this.caQ7btn2_Click);
             // 
             // caQ7tn1
             // 
@@ -133,6 +136,7 @@
             this.caQ7tn1.TabIndex = 162;
             this.caQ7tn1.Text = "I. Computer Basics and Architecture";
             this.caQ7tn1.UseVisualStyleBackColor = false;
+            this.caQ7tn1.Click += new System.EventHandler(this.caQ7tn1_Click);
             // 
             // panel2
             // 

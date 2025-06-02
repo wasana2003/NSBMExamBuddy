@@ -37,8 +37,9 @@ namespace NSBMExamBuddy
 
             int submoduleID = 47;
             int userID = CurrentUser.ID;
+            int moduleID = 15;
 
-            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID);
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID,moduleID);
             quiz.Show();
             this.Hide();
         }
@@ -48,8 +49,10 @@ namespace NSBMExamBuddy
 
             int submoduleID = 48;
             int userID = CurrentUser.ID;
+            int moduleID = 15;
 
-            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID);
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID,moduleID);
             quiz.Show();
             this.Hide();
         }
@@ -59,9 +62,18 @@ namespace NSBMExamBuddy
 
             int submoduleID = 49;
             int userID = CurrentUser.ID;
+            int moduleID = 15;
 
-            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID);
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID,moduleID);
             quiz.Show();
+            this.Hide();
+        }
+
+        private void signoutbtn_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Show();
             this.Hide();
         }
     }

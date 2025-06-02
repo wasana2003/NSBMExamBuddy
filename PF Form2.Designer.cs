@@ -173,6 +173,7 @@
             this.button3.TabIndex = 11;
             this.button3.Text = "Log Out";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -185,6 +186,7 @@
             this.button4.TabIndex = 8;
             this.button4.Text = "My Progress\t";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -197,6 +199,7 @@
             this.button5.TabIndex = 9;
             this.button5.Text = "Modules";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -209,6 +212,7 @@
             this.button6.TabIndex = 7;
             this.button6.Text = "Dashboard";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // PF_Form2
             // 

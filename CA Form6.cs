@@ -34,7 +34,46 @@ namespace NSBMExamBuddy
 
         private void caQ6btn1_Click(object sender, EventArgs e)
         {
+            int submoduleID = 212;
+            int userID = CurrentUser.ID;
+            int moduleID = 54;
 
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID, moduleID);
+            quiz.Show();
+            this.Hide();
+        }
+
+        private void caQ6btn2_Click(object sender, EventArgs e)
+        {
+            int submoduleID = 212;
+            int userID = CurrentUser.ID;
+            int moduleID = 54;
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID, moduleID);
+            quiz.Show();
+            this.Hide();
+        }
+
+        private void caQ6btn3_Click(object sender, EventArgs e)
+        {
+            int submoduleID = 212;
+            int userID = CurrentUser.ID;
+            int moduleID = 54;
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID, moduleID);
+            quiz.Show();
+            this.Hide();
+        }
+
+        private void caQ6btn4_Click(object sender, EventArgs e)
+        {
+            int submoduleID = 212;
+            int userID = CurrentUser.ID;
+            int moduleID = 54;
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID, moduleID);
+            quiz.Show();
+            this.Hide();
         }
     }
 }

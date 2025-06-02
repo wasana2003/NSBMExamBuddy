@@ -11,11 +11,11 @@ using static NSBMExamBuddy.Login;
 
 namespace NSBMExamBuddy
 {
-    public partial class Dashboard : Form
+    public partial class MainDashboard : Form
     {
         private int userID;
 
-        public Dashboard(int userID)
+        public MainDashboard(int userID)
         {
             InitializeComponent();
             this.Load += Dashboard_Load;
@@ -128,6 +128,21 @@ namespace NSBMExamBuddy
 
         private void label9_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            About_Form about_Form = new About_Form();
+            about_Form.Show();
+            this.Hide();
 
         }
     }

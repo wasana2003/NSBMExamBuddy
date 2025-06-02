@@ -30,5 +30,49 @@ namespace NSBMExamBuddy
             displayuser.Text = $"User :, {CurrentUser.Name}";
 
         }
+
+        private void caQ1btn1_Click(object sender, EventArgs e)
+        {
+            int submoduleID = 162;
+            int userID = CurrentUser.ID;
+            int moduleID = 39;
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID, moduleID);
+            quiz.Show();
+            this.Hide();
+        }
+
+        private void caQ1btn2_Click(object sender, EventArgs e)
+        {
+            int submoduleID = 163;
+            int userID = CurrentUser.ID;
+            int moduleID = 39;
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID, moduleID);
+            quiz.Show();
+            this.Hide();
+        }
+
+        private void caQ1btn3_Click(object sender, EventArgs e)
+        {
+            int submoduleID = 134;
+            int userID = CurrentUser.ID;
+            int moduleID = 39;
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID, moduleID);
+            quiz.Show();
+            this.Hide();
+        }
+
+        private void caQ1btn4_Click(object sender, EventArgs e)
+        {
+            int submoduleID = 215;
+            int userID = CurrentUser.ID;
+            int moduleID = 54;
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID, moduleID);
+            quiz.Show();
+            this.Hide();
+        }
     }
 }

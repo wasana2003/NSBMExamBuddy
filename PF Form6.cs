@@ -65,5 +65,33 @@ namespace NSBMExamBuddy
             quiz.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MainDashboard dashboard = new MainDashboard(userID);
+            dashboard.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Programming_Fundamental programming_Fundamental = new Programming_Fundamental();
+            programming_Fundamental.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            About_Form about_Form = new About_Form();
+            about_Form.Show();
+            this.Hide();
+        }
     }
 }

@@ -113,6 +113,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About Form.Designer.cs">
+      <DependentUpon>About Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -577,6 +583,9 @@
     <Compile Include="Web.Designer.cs">
       <DependentUpon>Web.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="About Form.resx">
+      <DependentUpon>About Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin Dashboard.resx">
       <DependentUpon>Admin Dashboard.cs</DependentUpon>
     </EmbeddedResource>

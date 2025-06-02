@@ -100,6 +100,7 @@
             this.caQ4btn4.TabIndex = 147;
             this.caQ4btn4.Text = "IV. Essential Electronic Components and Applications";
             this.caQ4btn4.UseVisualStyleBackColor = false;
+            this.caQ4btn4.Click += new System.EventHandler(this.caQ4btn4_Click);
             // 
             // caQ4btn3
             // 
@@ -111,6 +112,7 @@
             this.caQ4btn3.TabIndex = 146;
             this.caQ4btn3.Text = "III. DC Circuits: Series, Parallel, and Series-Parallel";
             this.caQ4btn3.UseVisualStyleBackColor = false;
+            this.caQ4btn3.Click += new System.EventHandler(this.caQ4btn3_Click);
             // 
             // caQ4btn2
             // 
@@ -122,6 +124,7 @@
             this.caQ4btn2.TabIndex = 145;
             this.caQ4btn2.Text = "II. Electricity Fundamentals: Voltage, Current, Resistance";
             this.caQ4btn2.UseVisualStyleBackColor = false;
+            this.caQ4btn2.Click += new System.EventHandler(this.caQ4btn2_Click);
             // 
             // caQ4btn1
             // 
@@ -133,6 +136,7 @@
             this.caQ4btn1.TabIndex = 144;
             this.caQ4btn1.Text = "I.  Atomic Structure and Electrical Properties";
             this.caQ4btn1.UseVisualStyleBackColor = false;
+            this.caQ4btn1.Click += new System.EventHandler(this.caQ4btn1_Click);
             // 
             // panel2
             // 

@@ -100,6 +100,7 @@
             this.caQ6btn4.TabIndex = 159;
             this.caQ6btn4.Text = "IV. Applications and Analysis of Sequential Circuits";
             this.caQ6btn4.UseVisualStyleBackColor = false;
+            this.caQ6btn4.Click += new System.EventHandler(this.caQ6btn4_Click);
             // 
             // caQ6btn3
             // 
@@ -111,6 +112,7 @@
             this.caQ6btn3.TabIndex = 158;
             this.caQ6btn3.Text = "III. Understanding Clock Signals";
             this.caQ6btn3.UseVisualStyleBackColor = false;
+            this.caQ6btn3.Click += new System.EventHandler(this.caQ6btn3_Click);
             // 
             // caQ6btn2
             // 
@@ -122,6 +124,7 @@
             this.caQ6btn2.TabIndex = 157;
             this.caQ6btn2.Text = "II. Types and Behaviors of Sequential Circuits";
             this.caQ6btn2.UseVisualStyleBackColor = false;
+            this.caQ6btn2.Click += new System.EventHandler(this.caQ6btn2_Click);
             // 
             // caQ6btn1
             // 

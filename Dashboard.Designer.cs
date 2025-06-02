@@ -1,6 +1,6 @@
 ﻿namespace NSBMExamBuddy
 {
-    partial class Dashboard
+    partial class MainDashboard
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainDashboard));
             this.label1 = new System.Windows.Forms.Label();
             this.intro = new System.Windows.Forms.Panel();
             this.introbtn = new System.Windows.Forms.Button();
@@ -74,9 +74,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             this.intro.SuspendLayout();
             this.dashboardpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -568,9 +565,6 @@
             // 
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.button5);
-            this.panel2.Controls.Add(this.button6);
             this.panel2.Location = new System.Drawing.Point(12, 148);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(200, 571);
@@ -580,58 +574,27 @@
             // 
             this.button2.BackColor = System.Drawing.Color.MediumPurple;
             this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(0, 367);
+            this.button2.Location = new System.Drawing.Point(0, 225);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(200, 43);
             this.button2.TabIndex = 12;
             this.button2.Text = "Instructions / About\t";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.MediumPurple;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(42, 456);
+            this.button3.Location = new System.Drawing.Point(40, 359);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(114, 34);
             this.button3.TabIndex = 11;
             this.button3.Text = "Log Out";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.MediumPurple;
-            this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(0, 283);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(200, 43);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "My Progress\t";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.MediumPurple;
-            this.button5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(0, 198);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(200, 43);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "Modules";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.MediumPurple;
-            this.button6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(0, 120);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(200, 43);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "Dashboard";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // Dashboard
+            // MainDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -651,7 +614,7 @@
             this.Controls.Add(this.dashboardpanel);
             this.Controls.Add(this.intro);
             this.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Name = "Dashboard";
+            this.Name = "MainDashboard";
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.intro.ResumeLayout(false);
@@ -727,8 +690,5 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
     }
 }

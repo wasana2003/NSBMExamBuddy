@@ -100,6 +100,7 @@
             this.caQ2btn4.TabIndex = 135;
             this.caQ2btn4.Text = "IV. Applications and Analysis of Logic Circuits";
             this.caQ2btn4.UseVisualStyleBackColor = false;
+            this.caQ2btn4.Click += new System.EventHandler(this.caQ2btn4_Click);
             // 
             // caQ2btn3
             // 
@@ -111,6 +112,7 @@
             this.caQ2btn3.TabIndex = 134;
             this.caQ2btn3.Text = "III.  XOR, XNOR and Derived Logic Gates";
             this.caQ2btn3.UseVisualStyleBackColor = false;
+            this.caQ2btn3.Click += new System.EventHandler(this.caQ2btn3_Click);
             // 
             // caQ2btn2
             // 
@@ -122,6 +124,7 @@
             this.caQ2btn2.TabIndex = 133;
             this.caQ2btn2.Text = "II. Logic Gates: NOT, AND, OR";
             this.caQ2btn2.UseVisualStyleBackColor = false;
+            this.caQ2btn2.Click += new System.EventHandler(this.caQ2btn2_Click);
             // 
             // caQ2btn1
             // 
@@ -133,6 +136,7 @@
             this.caQ2btn1.TabIndex = 132;
             this.caQ2btn1.Text = "I. Basics of Digital Electronics";
             this.caQ2btn1.UseVisualStyleBackColor = false;
+            this.caQ2btn1.Click += new System.EventHandler(this.caQ2btn1_Click);
             // 
             // panel2
             // 

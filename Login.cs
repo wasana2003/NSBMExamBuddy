@@ -81,7 +81,7 @@ namespace NSBMExamBuddy
                         CurrentUser.Name = username;
 
                         MessageBox.Show("User login successful.");
-                        Dashboard dashboard = new Dashboard(userID); // Your module dashboard form
+                        MainDashboard dashboard = new MainDashboard(userID); // Your module dashboard form
                         dashboard.Show();
                         this.Hide();
                     }

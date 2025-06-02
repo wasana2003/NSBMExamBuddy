@@ -100,6 +100,7 @@
             this.caQ3btn4.TabIndex = 141;
             this.caQ3btn4.Text = "IV. De Morgan’s Theorem and Karnaugh Maps";
             this.caQ3btn4.UseVisualStyleBackColor = false;
+            this.caQ3btn4.Click += new System.EventHandler(this.caQ3btn4_Click);
             // 
             // caQ3btn3
             // 
@@ -111,6 +112,7 @@
             this.caQ3btn3.TabIndex = 140;
             this.caQ3btn3.Text = "III. Boolean Laws and Simplification Techniques";
             this.caQ3btn3.UseVisualStyleBackColor = false;
+            this.caQ3btn3.Click += new System.EventHandler(this.caQ3btn3_Click);
             // 
             // caQ3btn2
             // 
@@ -122,6 +124,7 @@
             this.caQ3btn2.TabIndex = 139;
             this.caQ3btn2.Text = "II. Minterms, Maxterms, SOP and POS";
             this.caQ3btn2.UseVisualStyleBackColor = false;
+            this.caQ3btn2.Click += new System.EventHandler(this.caQ3btn2_Click);
             // 
             // caQ3btn1
             // 
@@ -133,6 +136,7 @@
             this.caQ3btn1.TabIndex = 138;
             this.caQ3btn1.Text = "I. Core Concepts of Boolean Algebra";
             this.caQ3btn1.UseVisualStyleBackColor = false;
+            this.caQ3btn1.Click += new System.EventHandler(this.caQ3btn1_Click);
             // 
             // panel2
             // 

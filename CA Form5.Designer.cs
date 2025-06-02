@@ -100,6 +100,7 @@
             this.caQ5btn4.TabIndex = 153;
             this.caQ5btn4.Text = "IV. Demultiplexers (DEMUX)";
             this.caQ5btn4.UseVisualStyleBackColor = false;
+            this.caQ5btn4.Click += new System.EventHandler(this.caQ5btn4_Click);
             // 
             // caQ5btn3
             // 
@@ -111,6 +112,7 @@
             this.caQ5btn3.TabIndex = 152;
             this.caQ5btn3.Text = "III. Multiplexers (MUX)";
             this.caQ5btn3.UseVisualStyleBackColor = false;
+            this.caQ5btn3.Click += new System.EventHandler(this.caQ5btn3_Click);
             // 
             // caQ5btn2
             // 
@@ -122,6 +124,7 @@
             this.caQ5btn2.TabIndex = 151;
             this.caQ5btn2.Text = "II. Binary Adders and Arithmetic Circuits";
             this.caQ5btn2.UseVisualStyleBackColor = false;
+            this.caQ5btn2.Click += new System.EventHandler(this.caQ5btn2_Click);
             // 
             // caQ5btn1
             // 
@@ -133,6 +136,7 @@
             this.caQ5btn1.TabIndex = 150;
             this.caQ5btn1.Text = "I. Introduction to Combinational Logic Circuits";
             this.caQ5btn1.UseVisualStyleBackColor = false;
+            this.caQ5btn1.Click += new System.EventHandler(this.caQ5btn1_Click);
             // 
             // panel2
             // 

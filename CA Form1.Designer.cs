@@ -100,6 +100,7 @@
             this.caQ1btn2.TabIndex = 127;
             this.caQ1btn2.Text = "II. Basics of Computer Systems";
             this.caQ1btn2.UseVisualStyleBackColor = false;
+            this.caQ1btn2.Click += new System.EventHandler(this.caQ1btn2_Click);
             // 
             // caQ1btn1
             // 
@@ -111,6 +112,7 @@
             this.caQ1btn1.TabIndex = 126;
             this.caQ1btn1.Text = "I. Fundamentals of Computer Architecture";
             this.caQ1btn1.UseVisualStyleBackColor = false;
+            this.caQ1btn1.Click += new System.EventHandler(this.caQ1btn1_Click);
             // 
             // caQ1btn3
             // 
@@ -122,6 +124,7 @@
             this.caQ1btn3.TabIndex = 128;
             this.caQ1btn3.Text = "III.  Computer Hardware Components and Operations";
             this.caQ1btn3.UseVisualStyleBackColor = false;
+            this.caQ1btn3.Click += new System.EventHandler(this.caQ1btn3_Click);
             // 
             // caQ1btn4
             // 
@@ -133,6 +136,7 @@
             this.caQ1btn4.TabIndex = 129;
             this.caQ1btn4.Text = "IV. System Architecture Concepts and Design Goals";
             this.caQ1btn4.UseVisualStyleBackColor = false;
+            this.caQ1btn4.Click += new System.EventHandler(this.caQ1btn4_Click);
             // 
             // panel2
             // 
