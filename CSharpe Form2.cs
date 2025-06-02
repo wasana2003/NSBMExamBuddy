@@ -13,9 +13,16 @@ namespace NSBMExamBuddy
 {
     public partial class CSharpe_Form2 : Form
     {
+        private int userID;
+
         public CSharpe_Form2(int userID)
         {
             InitializeComponent();
+            this.userID = userID;
+        }
+
+        public CSharpe_Form2()
+        {
         }
 
         private void displayuser_Click(object sender, EventArgs e)

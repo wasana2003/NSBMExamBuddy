@@ -13,9 +13,12 @@ namespace NSBMExamBuddy
 {
     public partial class Algo_Form6 : Form
     {
+        private int userID;
+
         public Algo_Form6(int userID)
         {
             InitializeComponent();
+            this.userID = userID;
         }
 
         private void Algo_Form6_Load(object sender, EventArgs e)

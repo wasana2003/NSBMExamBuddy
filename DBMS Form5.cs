@@ -13,9 +13,12 @@ namespace NSBMExamBuddy
 {
     public partial class DBMS_Form5 : Form
     {
+        private int userID;
+
         public DBMS_Form5(int userID)
         {
             InitializeComponent();
+            this.userID = userID;
         }
 
         private void DBMS_Form5_Load(object sender, EventArgs e)

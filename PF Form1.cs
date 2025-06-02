@@ -13,9 +13,12 @@ namespace NSBMExamBuddy
 {
     public partial class PF_Form1 : Form
     {
+        private int userID;
+
         public PF_Form1(int userID)
         {
             InitializeComponent();
+            this.userID = userID;
         }
 
         private void PF_Form1_Load(object sender, EventArgs e)

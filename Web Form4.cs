@@ -13,9 +13,12 @@ namespace NSBMExamBuddy
 {
     public partial class Web_Form4 : Form
     {
+        private int userID;
+
         public Web_Form4(int userID)
         {
             InitializeComponent();
+            this.userID = userID;
         }
 
         private void Web_Form4_Load(object sender, EventArgs e)

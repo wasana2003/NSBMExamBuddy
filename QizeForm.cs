@@ -111,6 +111,11 @@ namespace NSBMExamBuddy
             }
         }
 
+        public Intro_Q_set1(int submoduleID, int userID)
+        {
+            this.submoduleID = submoduleID;
+            this.userID = userID;
+        }
 
         private void Intro_Q_set1_Load(object sender, EventArgs e)
         {

@@ -13,9 +13,12 @@ namespace NSBMExamBuddy
 {
     public partial class SAD_Form5 : Form
     {
+        private int userID;
+
         public SAD_Form5(int userID)
         {
             InitializeComponent();
+            this.userID = userID;
         }
 
         private void SAD_Form5_Load(object sender, EventArgs e)
