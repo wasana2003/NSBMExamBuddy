@@ -23,5 +23,10 @@ namespace NSBMExamBuddy
             displayuser.Text = $"User :, {CurrentUser.Name}";
 
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
