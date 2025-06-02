@@ -145,11 +145,13 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(200, 571);
             this.panel5.TabIndex = 101;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // infobtn
             // 
             this.infobtn.BackColor = System.Drawing.Color.MediumPurple;
             this.infobtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.infobtn.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.infobtn.Location = new System.Drawing.Point(0, 367);
             this.infobtn.Name = "infobtn";
             this.infobtn.Size = new System.Drawing.Size(200, 43);
@@ -161,6 +163,7 @@
             // 
             this.signoutbtn.BackColor = System.Drawing.Color.MediumPurple;
             this.signoutbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signoutbtn.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.signoutbtn.Location = new System.Drawing.Point(42, 456);
             this.signoutbtn.Name = "signoutbtn";
             this.signoutbtn.Size = new System.Drawing.Size(114, 34);
@@ -172,6 +175,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.MediumPurple;
             this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button1.Location = new System.Drawing.Point(0, 283);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 43);
@@ -183,6 +187,7 @@
             // 
             this.modulebtn.BackColor = System.Drawing.Color.MediumPurple;
             this.modulebtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modulebtn.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.modulebtn.Location = new System.Drawing.Point(0, 198);
             this.modulebtn.Name = "modulebtn";
             this.modulebtn.Size = new System.Drawing.Size(200, 43);
@@ -194,6 +199,7 @@
             // 
             this.dashboardbtn.BackColor = System.Drawing.Color.MediumPurple;
             this.dashboardbtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashboardbtn.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.dashboardbtn.Location = new System.Drawing.Point(0, 120);
             this.dashboardbtn.Name = "dashboardbtn";
             this.dashboardbtn.Size = new System.Drawing.Size(200, 43);
