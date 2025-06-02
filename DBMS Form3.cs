@@ -13,7 +13,7 @@ namespace NSBMExamBuddy
 {
     public partial class DBMS_Form3 : Form
     {
-        public DBMS_Form3()
+        public DBMS_Form3(int userID)
         {
             InitializeComponent();
         }

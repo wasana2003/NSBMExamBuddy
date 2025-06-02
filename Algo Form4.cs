@@ -13,7 +13,7 @@ namespace NSBMExamBuddy
 {
     public partial class Algo_Form4 : Form
     {
-        public Algo_Form4()
+        public Algo_Form4(int userID)
         {
             InitializeComponent();
         }

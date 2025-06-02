@@ -43,7 +43,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 82);
+            this.label1.Location = new System.Drawing.Point(32, 82);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 25);
             this.label1.TabIndex = 0;
@@ -52,6 +52,7 @@
             // answerRadio1btn
             // 
             this.answerRadio1btn.AutoSize = true;
+            this.answerRadio1btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answerRadio1btn.Location = new System.Drawing.Point(124, 200);
             this.answerRadio1btn.Name = "answerRadio1btn";
             this.answerRadio1btn.Size = new System.Drawing.Size(14, 13);
@@ -63,6 +64,7 @@
             // answerRadio4btn
             // 
             this.answerRadio4btn.AutoSize = true;
+            this.answerRadio4btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answerRadio4btn.Location = new System.Drawing.Point(124, 397);
             this.answerRadio4btn.Name = "answerRadio4btn";
             this.answerRadio4btn.Size = new System.Drawing.Size(14, 13);
@@ -73,6 +75,7 @@
             // answerRadio3btn
             // 
             this.answerRadio3btn.AutoSize = true;
+            this.answerRadio3btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answerRadio3btn.Location = new System.Drawing.Point(124, 334);
             this.answerRadio3btn.Name = "answerRadio3btn";
             this.answerRadio3btn.Size = new System.Drawing.Size(14, 13);
@@ -83,6 +86,7 @@
             // answerRadio2btn
             // 
             this.answerRadio2btn.AutoSize = true;
+            this.answerRadio2btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answerRadio2btn.Location = new System.Drawing.Point(124, 266);
             this.answerRadio2btn.Name = "answerRadio2btn";
             this.answerRadio2btn.Size = new System.Drawing.Size(14, 13);
@@ -101,28 +105,33 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(180, 493);
+            this.progressBar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.progressBar1.Location = new System.Drawing.Point(145, 481);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(455, 23);
+            this.progressBar1.Size = new System.Drawing.Size(541, 23);
             this.progressBar1.TabIndex = 7;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
             // nextbtnforQ
             // 
-            this.nextbtnforQ.Location = new System.Drawing.Point(559, 589);
+            this.nextbtnforQ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(74)))), ((int)(((byte)(234)))));
+            this.nextbtnforQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nextbtnforQ.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.nextbtnforQ.Location = new System.Drawing.Point(589, 588);
             this.nextbtnforQ.Name = "nextbtnforQ";
-            this.nextbtnforQ.Size = new System.Drawing.Size(75, 23);
+            this.nextbtnforQ.Size = new System.Drawing.Size(107, 41);
             this.nextbtnforQ.TabIndex = 8;
             this.nextbtnforQ.Text = "Next";
-            this.nextbtnforQ.UseVisualStyleBackColor = true;
+            this.nextbtnforQ.UseVisualStyleBackColor = false;
             this.nextbtnforQ.Click += new System.EventHandler(this.nextbtnforQ_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(180, 82);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(140, 82);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(11, 13);
+            this.label2.Size = new System.Drawing.Size(20, 25);
             this.label2.TabIndex = 9;
             this.label2.Text = "*";
             // 
@@ -130,6 +139,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(806, 704);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.nextbtnforQ);

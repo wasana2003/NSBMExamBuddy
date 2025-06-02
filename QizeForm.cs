@@ -11,7 +11,8 @@ namespace NSBMExamBuddy
         private List<Question> questionList = new List<Question>();
         private int currentIndex = 0;
         //private int submoduleID;
-
+        private Dictionary<int, Func<Form>> moduleNavigationMap;
+        //private int moduleID;
         public Intro_Q_set1()
         {
             InitializeComponent();
@@ -19,12 +20,84 @@ namespace NSBMExamBuddy
         private int score = 0;
         private int submoduleID;
         private int userID;
+        private int moduleID;
 
-        public Intro_Q_set1(int submoduleID, int userID)
+        public Intro_Q_set1(int submoduleID, int userID , int moduleID)
         {
             InitializeComponent();
+            moduleNavigationMap = new Dictionary<int, Func<Form>>()
+{
+    { 1, () => new PF_Form1(userID) },
+    { 2, () => new PF_Form2(userID) },
+    { 3, () => new PF_Form3(userID) },
+    { 4, () => new PF_Form4(userID) },
+    { 5, () => new PF_Form5(userID) },
+    { 6, () => new PF_Form6(userID) },
+    { 7, () => new PF_Form7(userID) },
+    { 8, () => new PF_Form8(userID) },
+    { 9, () => new PF_Form9(userID) },
+    { 10, () => new Maths_Form1(userID) },
+    { 11, () => new Maths_Form2(userID) },
+    { 12, () => new MATHS_Form3(userID) },
+    { 13, () => new MATHS_Form4(userID) },
+    { 14, () => new MATHS_Form5(userID) },
+    { 15, () => new ALGO_Form1(userID) },
+    { 16, () => new Algo_Form2(userID) },
+    { 17, () => new Algo_Form3(userID) },
+    { 18, () => new Algo_Form4(userID) },
+    { 19, () => new Algo_Form5(userID) },
+    { 20, () => new Algo_Form6(userID) },
+                { 21, () => new Web_Form1(userID) },
+                { 22, () => new Web_Form2(userID) },
+                { 23, () => new Web_Form3(userID) },
+                { 24, () => new Web_Form4(userID) },
+                { 25, () => new Web_Form5(userID) },
+
+                { 26, () => new Intro_Form1(userID) },
+                { 27, () => new Intro_Form2(userID) },
+                { 28, () => new Intro_Form3(userID) },
+                {29 , () => new Intro_Form4(userID) },
+                {30 , () => new Intro_Form5(userID) },
+                {31 , () => new Intro_Form6(userID) },
+                {32 , () => new Intro_Form7(userID) },
+
+                {33 , () => new DBMS_Form1(userID) },
+                {34 , () => new DBMS_Form2(userID) },//DBMS
+                {35 , () => new DBMS_Form3(userID) },
+                {36 , () => new DBMS_Form4(userID) },
+                {37 , () => new DBMS_Form5(userID) },
+                {38 , () => new DBMS_Form6(userID) },
+
+                {39 , () => new CA_Form1(userID) },
+                {40 , () => new CA_Form2(userID) },//CA
+                {41 , () => new CA_Form3(userID) },
+                {42 , () => new CA_Form4(userID) },
+                {43 , () => new CA_Form5(userID) },
+                {44 , () => new CA_Form6(userID) },
+                {45 , () => new CA_Form7(userID) },
+                {46 , () => new CA_Form8(userID) },
+
+                {47 , () => new CSharpe_Form1(userID) },//C#
+                {48 , () => new CSharpe_Form2(userID) },
+                {49 , () => new CSharpe_Form3(userID) },
+                {50 , () => new CSharpe_Form4(userID) },
+                {51 , () => new CSharpe_Form5(userID) },
+                {52 , () => new CSharpe_Form6(userID) },
+                {53 , () => new CSharpe_Form7(userID) },
+
+                {54 , () => new SAD_Form1(userID) },//SAD
+                {55 , () => new SAD_Form2(userID) },
+                {56 , () => new SAD_Form3(userID) },
+                {57 , () => new SAD_Form4(userID) },
+                {58, () => new SAD_Form5(userID) },
+                {59 , () => new SAD_Form6(userID) },
+
+    // 🔁 Add as many as you define forms for.
+};
+
             this.submoduleID = submoduleID;
             this.userID = userID;
+            this.moduleID = moduleID;
             LoadQuestions(submoduleID);
 
             if (questionList.Count > 0)
@@ -112,7 +185,40 @@ namespace NSBMExamBuddy
             {
                 MessageBox.Show($"Quiz completed! You scored {score} out of {questionList.Count}");
                 SaveScore(); // ✅ Save score to DB
+
+                if (moduleNavigationMap.ContainsKey(moduleID))
+                {
+                    Form subForm = moduleNavigationMap[moduleID].Invoke();
+                    subForm.Show();
+                }
+                else
+                {
+                    MessageBox.Show("No matching submodule interface. Redirecting to Dashboard.");
+                    new Dashboard(userID).Show();
+                }
+
+                //Form subFormToShow = null;
+
+                //switch (moduleID)
+                //{
+                //    case 1:
+                //        subFormToShow = new PythonSubmoduleForm(userID); break;
+                //    case 2:
+                //        subFormToShow = new LoopsSubmoduleForm(userID); break;
+                //    case 3:
+                //        subFormToShow = new FunctionsSubmoduleForm(userID); break;
+                //    case 4:
+                //        subFormToShow = new LoopsAdvancedSubmoduleForm(userID); break;
+                //    // Add more cases for other module IDs as needed
+                //    default:
+                //        MessageBox.Show("Unknown Module. Returning to Dashboard.");
+                //        subFormToShow = new DashboardForm(userID); break;
+                //}
+
+                //subFormToShow.Show();
                 this.Close();
+
+
             }
 
         }

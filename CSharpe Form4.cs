@@ -13,7 +13,7 @@ namespace NSBMExamBuddy
 {
     public partial class CSharpe_Form4 : Form
     {
-        public CSharpe_Form4()
+        public CSharpe_Form4(int userID)
         {
             InitializeComponent();
         }

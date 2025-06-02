@@ -13,7 +13,7 @@ namespace NSBMExamBuddy
 {
     public partial class CA_Form6 : Form
     {
-        public CA_Form6()
+        public CA_Form6(int userID)
         {
             InitializeComponent();
         }

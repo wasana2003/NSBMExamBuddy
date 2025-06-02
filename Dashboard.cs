@@ -13,9 +13,13 @@ namespace NSBMExamBuddy
 {
     public partial class Dashboard : Form
     {
-        public Dashboard()
+        public Dashboard(int userID)
         {
             InitializeComponent();
+        }
+
+        public Dashboard()
+        {
         }
 
         private void label2_Click(object sender, EventArgs e)
