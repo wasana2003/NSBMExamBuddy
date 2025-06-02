@@ -91,35 +91,38 @@
             // 
             // mathsQ5btn3
             // 
+            this.mathsQ5btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.mathsQ5btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mathsQ5btn3.Location = new System.Drawing.Point(302, 420);
             this.mathsQ5btn3.Name = "mathsQ5btn3";
             this.mathsQ5btn3.Size = new System.Drawing.Size(483, 43);
             this.mathsQ5btn3.TabIndex = 45;
             this.mathsQ5btn3.Text = "III.Matrix Multiplication";
-            this.mathsQ5btn3.UseVisualStyleBackColor = true;
+            this.mathsQ5btn3.UseVisualStyleBackColor = false;
             this.mathsQ5btn3.Click += new System.EventHandler(this.mathsQ5btn3_Click);
             // 
             // mathsQ5btn2
             // 
+            this.mathsQ5btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.mathsQ5btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mathsQ5btn2.Location = new System.Drawing.Point(302, 307);
             this.mathsQ5btn2.Name = "mathsQ5btn2";
             this.mathsQ5btn2.Size = new System.Drawing.Size(483, 43);
             this.mathsQ5btn2.TabIndex = 44;
             this.mathsQ5btn2.Text = "II.Matrix Operations ";
-            this.mathsQ5btn2.UseVisualStyleBackColor = true;
+            this.mathsQ5btn2.UseVisualStyleBackColor = false;
             this.mathsQ5btn2.Click += new System.EventHandler(this.mathsQ5btn2_Click);
             // 
             // mathsQ5btn1
             // 
+            this.mathsQ5btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.mathsQ5btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mathsQ5btn1.Location = new System.Drawing.Point(302, 197);
             this.mathsQ5btn1.Name = "mathsQ5btn1";
             this.mathsQ5btn1.Size = new System.Drawing.Size(483, 43);
             this.mathsQ5btn1.TabIndex = 43;
             this.mathsQ5btn1.Text = "I.Basic Concepts of Matrices";
-            this.mathsQ5btn1.UseVisualStyleBackColor = true;
+            this.mathsQ5btn1.UseVisualStyleBackColor = false;
             this.mathsQ5btn1.Click += new System.EventHandler(this.mathsQ5btn1_Click);
             // 
             // panel2

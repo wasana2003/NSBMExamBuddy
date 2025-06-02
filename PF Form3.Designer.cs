@@ -92,46 +92,50 @@
             // 
             // pfQ3btn4
             // 
+            this.pfQ3btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pfQ3btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pfQ3btn4.Location = new System.Drawing.Point(302, 539);
             this.pfQ3btn4.Name = "pfQ3btn4";
             this.pfQ3btn4.Size = new System.Drawing.Size(483, 54);
             this.pfQ3btn4.TabIndex = 53;
             this.pfQ3btn4.Text = "IV. ord(), find(), min(), max(), len(), id(), is vs ==, math module";
-            this.pfQ3btn4.UseVisualStyleBackColor = true;
+            this.pfQ3btn4.UseVisualStyleBackColor = false;
             this.pfQ3btn4.Click += new System.EventHandler(this.pfQ3btn4_Click);
             // 
             // pfQ3btn3
             // 
+            this.pfQ3btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pfQ3btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pfQ3btn3.Location = new System.Drawing.Point(302, 420);
             this.pfQ3btn3.Name = "pfQ3btn3";
             this.pfQ3btn3.Size = new System.Drawing.Size(483, 52);
             this.pfQ3btn3.TabIndex = 52;
             this.pfQ3btn3.Text = "III. print(), pow(), and type(), int(), float(), str(), round()";
-            this.pfQ3btn3.UseVisualStyleBackColor = true;
+            this.pfQ3btn3.UseVisualStyleBackColor = false;
             this.pfQ3btn3.Click += new System.EventHandler(this.pfQ3btn3_Click);
             // 
             // pfQ3btn2
             // 
+            this.pfQ3btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pfQ3btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pfQ3btn2.Location = new System.Drawing.Point(302, 310);
             this.pfQ3btn2.Name = "pfQ3btn2";
             this.pfQ3btn2.Size = new System.Drawing.Size(483, 43);
             this.pfQ3btn2.TabIndex = 51;
             this.pfQ3btn2.Text = "II.Parameters, Arguments & Return Statement";
-            this.pfQ3btn2.UseVisualStyleBackColor = true;
+            this.pfQ3btn2.UseVisualStyleBackColor = false;
             this.pfQ3btn2.Click += new System.EventHandler(this.pfQ3btn2_Click);
             // 
             // pfQ3btn1
             // 
+            this.pfQ3btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pfQ3btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pfQ3btn1.Location = new System.Drawing.Point(302, 197);
             this.pfQ3btn1.Name = "pfQ3btn1";
             this.pfQ3btn1.Size = new System.Drawing.Size(483, 43);
             this.pfQ3btn1.TabIndex = 50;
             this.pfQ3btn1.Text = "l. Introduction to Functions & Syntax";
-            this.pfQ3btn1.UseVisualStyleBackColor = true;
+            this.pfQ3btn1.UseVisualStyleBackColor = false;
             this.pfQ3btn1.Click += new System.EventHandler(this.pfQ3btn1_Click);
             // 
             // panel2
@@ -196,7 +200,7 @@
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.MediumPurple;
+            this.button6.BackColor = System.Drawing.Color.BlueViolet;
             this.button6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button6.Location = new System.Drawing.Point(0, 120);

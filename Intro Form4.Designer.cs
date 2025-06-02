@@ -92,46 +92,50 @@
             // 
             // introQ4btn4
             // 
+            this.introQ4btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ4btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ4btn4.Location = new System.Drawing.Point(302, 539);
             this.introQ4btn4.Name = "introQ4btn4";
             this.introQ4btn4.Size = new System.Drawing.Size(483, 43);
             this.introQ4btn4.TabIndex = 41;
             this.introQ4btn4.Text = "IV. HDD Capacity Calculations";
-            this.introQ4btn4.UseVisualStyleBackColor = true;
+            this.introQ4btn4.UseVisualStyleBackColor = false;
             this.introQ4btn4.Click += new System.EventHandler(this.introQ4btn4_Click);
             // 
             // introQ4btn3
             // 
+            this.introQ4btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ4btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ4btn3.Location = new System.Drawing.Point(302, 420);
             this.introQ4btn3.Name = "introQ4btn3";
             this.introQ4btn3.Size = new System.Drawing.Size(483, 43);
             this.introQ4btn3.TabIndex = 40;
             this.introQ4btn3.Text = "III. Hard Disk Drives (HDD)";
-            this.introQ4btn3.UseVisualStyleBackColor = true;
+            this.introQ4btn3.UseVisualStyleBackColor = false;
             this.introQ4btn3.Click += new System.EventHandler(this.introQ4btn3_Click);
             // 
             // introQ4btn2
             // 
+            this.introQ4btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ4btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ4btn2.Location = new System.Drawing.Point(302, 307);
             this.introQ4btn2.Name = "introQ4btn2";
             this.introQ4btn2.Size = new System.Drawing.Size(483, 43);
             this.introQ4btn2.TabIndex = 39;
             this.introQ4btn2.Text = "II. Secondary Storage Devices";
-            this.introQ4btn2.UseVisualStyleBackColor = true;
+            this.introQ4btn2.UseVisualStyleBackColor = false;
             this.introQ4btn2.Click += new System.EventHandler(this.introQ4btn2_Click);
             // 
             // introQ4btn1
             // 
+            this.introQ4btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ4btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ4btn1.Location = new System.Drawing.Point(302, 197);
             this.introQ4btn1.Name = "introQ4btn1";
             this.introQ4btn1.Size = new System.Drawing.Size(483, 43);
             this.introQ4btn1.TabIndex = 38;
             this.introQ4btn1.Text = "I. Types of Storage – Primary vs. Secondary";
-            this.introQ4btn1.UseVisualStyleBackColor = true;
+            this.introQ4btn1.UseVisualStyleBackColor = false;
             this.introQ4btn1.Click += new System.EventHandler(this.introQ4btn1_Click);
             // 
             // panel2

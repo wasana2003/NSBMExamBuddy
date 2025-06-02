@@ -92,46 +92,50 @@
             // 
             // mathsQ2btn4
             // 
+            this.mathsQ2btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.mathsQ2btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mathsQ2btn4.Location = new System.Drawing.Point(302, 539);
             this.mathsQ2btn4.Name = "mathsQ2btn4";
             this.mathsQ2btn4.Size = new System.Drawing.Size(483, 43);
             this.mathsQ2btn4.TabIndex = 35;
             this.mathsQ2btn4.Text = "IV. Cartesian Product, Relations, and Functions";
-            this.mathsQ2btn4.UseVisualStyleBackColor = true;
+            this.mathsQ2btn4.UseVisualStyleBackColor = false;
             this.mathsQ2btn4.Click += new System.EventHandler(this.mathsQ2btn4_Click);
             // 
             // mathsQ2btn3
             // 
+            this.mathsQ2btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.mathsQ2btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mathsQ2btn3.Location = new System.Drawing.Point(302, 420);
             this.mathsQ2btn3.Name = "mathsQ2btn3";
             this.mathsQ2btn3.Size = new System.Drawing.Size(483, 43);
             this.mathsQ2btn3.TabIndex = 34;
             this.mathsQ2btn3.Text = "III. Venn Diagrams and Set Laws";
-            this.mathsQ2btn3.UseVisualStyleBackColor = true;
+            this.mathsQ2btn3.UseVisualStyleBackColor = false;
             this.mathsQ2btn3.Click += new System.EventHandler(this.mathsQ2btn3_Click);
             // 
             // mathsQ2btn2
             // 
+            this.mathsQ2btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.mathsQ2btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mathsQ2btn2.Location = new System.Drawing.Point(302, 307);
             this.mathsQ2btn2.Name = "mathsQ2btn2";
             this.mathsQ2btn2.Size = new System.Drawing.Size(483, 43);
             this.mathsQ2btn2.TabIndex = 33;
             this.mathsQ2btn2.Text = "II. Set Operations ";
-            this.mathsQ2btn2.UseVisualStyleBackColor = true;
+            this.mathsQ2btn2.UseVisualStyleBackColor = false;
             this.mathsQ2btn2.Click += new System.EventHandler(this.mathsQ2btn2_Click);
             // 
             // mathsQ2btn1
             // 
+            this.mathsQ2btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.mathsQ2btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mathsQ2btn1.Location = new System.Drawing.Point(302, 197);
             this.mathsQ2btn1.Name = "mathsQ2btn1";
             this.mathsQ2btn1.Size = new System.Drawing.Size(483, 43);
             this.mathsQ2btn1.TabIndex = 32;
             this.mathsQ2btn1.Text = "I. Basic Set Definitions and Notation";
-            this.mathsQ2btn1.UseVisualStyleBackColor = true;
+            this.mathsQ2btn1.UseVisualStyleBackColor = false;
             this.mathsQ2btn1.Click += new System.EventHandler(this.mathsQ2btn1_Click);
             // 
             // panel2

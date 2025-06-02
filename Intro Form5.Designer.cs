@@ -90,24 +90,26 @@
             // 
             // introQ5btn2
             // 
+            this.introQ5btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ5btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ5btn2.Location = new System.Drawing.Point(302, 360);
             this.introQ5btn2.Name = "introQ5btn2";
             this.introQ5btn2.Size = new System.Drawing.Size(483, 43);
             this.introQ5btn2.TabIndex = 45;
             this.introQ5btn2.Text = "II. DVD – Digital Versatile Disc";
-            this.introQ5btn2.UseVisualStyleBackColor = true;
+            this.introQ5btn2.UseVisualStyleBackColor = false;
             this.introQ5btn2.Click += new System.EventHandler(this.introQ5btn2_Click);
             // 
             // introQ5btn1
             // 
+            this.introQ5btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ5btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ5btn1.Location = new System.Drawing.Point(302, 228);
             this.introQ5btn1.Name = "introQ5btn1";
             this.introQ5btn1.Size = new System.Drawing.Size(483, 43);
             this.introQ5btn1.TabIndex = 44;
             this.introQ5btn1.Text = "I. Optical Disks – Basics and Types ";
-            this.introQ5btn1.UseVisualStyleBackColor = true;
+            this.introQ5btn1.UseVisualStyleBackColor = false;
             this.introQ5btn1.Click += new System.EventHandler(this.introQ5btn1_Click);
             // 
             // panel2

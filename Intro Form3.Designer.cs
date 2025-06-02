@@ -92,46 +92,50 @@
             // 
             // introQ3btn4
             // 
+            this.introQ3btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ3btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ3btn4.Location = new System.Drawing.Point(302, 539);
             this.introQ3btn4.Name = "introQ3btn4";
             this.introQ3btn4.Size = new System.Drawing.Size(483, 43);
             this.introQ3btn4.TabIndex = 35;
             this.introQ3btn4.Text = "IV. Two’s Complement Representation (8-bit)";
-            this.introQ3btn4.UseVisualStyleBackColor = true;
+            this.introQ3btn4.UseVisualStyleBackColor = false;
             this.introQ3btn4.Click += new System.EventHandler(this.introQ3btn4_Click);
             // 
             // introQ3btn3
             // 
+            this.introQ3btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ3btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ3btn3.Location = new System.Drawing.Point(302, 420);
             this.introQ3btn3.Name = "introQ3btn3";
             this.introQ3btn3.Size = new System.Drawing.Size(483, 43);
             this.introQ3btn3.TabIndex = 34;
             this.introQ3btn3.Text = "III. One’s Complement Representation (8-bit)";
-            this.introQ3btn3.UseVisualStyleBackColor = true;
+            this.introQ3btn3.UseVisualStyleBackColor = false;
             this.introQ3btn3.Click += new System.EventHandler(this.introQ3btn3_Click);
             // 
             // introQ3btn2
             // 
+            this.introQ3btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ3btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ3btn2.Location = new System.Drawing.Point(302, 307);
             this.introQ3btn2.Name = "introQ3btn2";
             this.introQ3btn2.Size = new System.Drawing.Size(483, 43);
             this.introQ3btn2.TabIndex = 33;
             this.introQ3btn2.Text = "II. Packed Decimal Representation";
-            this.introQ3btn2.UseVisualStyleBackColor = true;
+            this.introQ3btn2.UseVisualStyleBackColor = false;
             this.introQ3btn2.Click += new System.EventHandler(this.introQ3btn2_Click);
             // 
             // introQ3btn1
             // 
+            this.introQ3btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ3btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ3btn1.Location = new System.Drawing.Point(302, 197);
             this.introQ3btn1.Name = "introQ3btn1";
             this.introQ3btn1.Size = new System.Drawing.Size(483, 43);
             this.introQ3btn1.TabIndex = 32;
             this.introQ3btn1.Text = "I. Binary Coded Decimal (BCD) and Zone Decimal";
-            this.introQ3btn1.UseVisualStyleBackColor = true;
+            this.introQ3btn1.UseVisualStyleBackColor = false;
             this.introQ3btn1.Click += new System.EventHandler(this.introQ3btn1_Click);
             // 
             // panel2

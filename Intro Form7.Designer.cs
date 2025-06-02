@@ -92,7 +92,7 @@
             // 
             // introQ7btn4
             // 
-            this.introQ7btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
+            this.introQ7btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ7btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ7btn4.Location = new System.Drawing.Point(302, 539);
             this.introQ7btn4.Name = "introQ7btn4";
@@ -104,35 +104,38 @@
             // 
             // introQ7btn3
             // 
+            this.introQ7btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ7btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ7btn3.Location = new System.Drawing.Point(302, 420);
             this.introQ7btn3.Name = "introQ7btn3";
             this.introQ7btn3.Size = new System.Drawing.Size(483, 43);
             this.introQ7btn3.TabIndex = 46;
             this.introQ7btn3.Text = "III. Sources of Cyber Security Threats";
-            this.introQ7btn3.UseVisualStyleBackColor = true;
+            this.introQ7btn3.UseVisualStyleBackColor = false;
             this.introQ7btn3.Click += new System.EventHandler(this.introQ7btn3_Click);
             // 
             // introQ7btn2
             // 
+            this.introQ7btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ7btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ7btn2.Location = new System.Drawing.Point(302, 307);
             this.introQ7btn2.Name = "introQ7btn2";
             this.introQ7btn2.Size = new System.Drawing.Size(483, 43);
             this.introQ7btn2.TabIndex = 45;
             this.introQ7btn2.Text = "II. Types of Cyber Security Threats";
-            this.introQ7btn2.UseVisualStyleBackColor = true;
+            this.introQ7btn2.UseVisualStyleBackColor = false;
             this.introQ7btn2.Click += new System.EventHandler(this.introQ7btn2_Click);
             // 
             // introQ7btn1
             // 
+            this.introQ7btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ7btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ7btn1.Location = new System.Drawing.Point(302, 197);
             this.introQ7btn1.Name = "introQ7btn1";
             this.introQ7btn1.Size = new System.Drawing.Size(483, 43);
             this.introQ7btn1.TabIndex = 44;
             this.introQ7btn1.Text = "I. Cyber Security Threats – General Concepts";
-            this.introQ7btn1.UseVisualStyleBackColor = true;
+            this.introQ7btn1.UseVisualStyleBackColor = false;
             this.introQ7btn1.Click += new System.EventHandler(this.introQ7btn1_Click);
             // 
             // panel2

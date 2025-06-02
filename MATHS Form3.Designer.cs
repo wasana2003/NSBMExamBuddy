@@ -91,35 +91,38 @@
             // 
             // mathsQ3btn3
             // 
+            this.mathsQ3btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.mathsQ3btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mathsQ3btn3.Location = new System.Drawing.Point(302, 420);
             this.mathsQ3btn3.Name = "mathsQ3btn3";
             this.mathsQ3btn3.Size = new System.Drawing.Size(483, 43);
             this.mathsQ3btn3.TabIndex = 40;
             this.mathsQ3btn3.Text = "III.Circle Geometry";
-            this.mathsQ3btn3.UseVisualStyleBackColor = true;
+            this.mathsQ3btn3.UseVisualStyleBackColor = false;
             this.mathsQ3btn3.Click += new System.EventHandler(this.mathsQ3btn3_Click);
             // 
             // mathsQ3btn2
             // 
+            this.mathsQ3btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.mathsQ3btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mathsQ3btn2.Location = new System.Drawing.Point(302, 307);
             this.mathsQ3btn2.Name = "mathsQ3btn2";
             this.mathsQ3btn2.Size = new System.Drawing.Size(483, 43);
             this.mathsQ3btn2.TabIndex = 39;
             this.mathsQ3btn2.Text = "II.Parallel and Perpendicular Lines";
-            this.mathsQ3btn2.UseVisualStyleBackColor = true;
+            this.mathsQ3btn2.UseVisualStyleBackColor = false;
             this.mathsQ3btn2.Click += new System.EventHandler(this.mathsQ3btn2_Click);
             // 
             // mathsQ3btn1
             // 
+            this.mathsQ3btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.mathsQ3btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mathsQ3btn1.Location = new System.Drawing.Point(302, 197);
             this.mathsQ3btn1.Name = "mathsQ3btn1";
             this.mathsQ3btn1.Size = new System.Drawing.Size(483, 43);
             this.mathsQ3btn1.TabIndex = 38;
             this.mathsQ3btn1.Text = "I.Linear Functions & Slope";
-            this.mathsQ3btn1.UseVisualStyleBackColor = true;
+            this.mathsQ3btn1.UseVisualStyleBackColor = false;
             this.mathsQ3btn1.Click += new System.EventHandler(this.mathsQ3btn1_Click);
             // 
             // panel2

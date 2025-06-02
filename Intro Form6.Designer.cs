@@ -91,35 +91,38 @@
             // 
             // introQ6btn3
             // 
+            this.introQ6btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ6btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ6btn3.Location = new System.Drawing.Point(302, 420);
             this.introQ6btn3.Name = "introQ6btn3";
             this.introQ6btn3.Size = new System.Drawing.Size(483, 43);
             this.introQ6btn3.TabIndex = 46;
             this.introQ6btn3.Text = "III. LAN Physical Topologies";
-            this.introQ6btn3.UseVisualStyleBackColor = true;
+            this.introQ6btn3.UseVisualStyleBackColor = false;
             this.introQ6btn3.Click += new System.EventHandler(this.introQ6btn3_Click);
             // 
             // introQ6btn2
             // 
+            this.introQ6btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ6btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ6btn2.Location = new System.Drawing.Point(302, 307);
             this.introQ6btn2.Name = "introQ6btn2";
             this.introQ6btn2.Size = new System.Drawing.Size(483, 43);
             this.introQ6btn2.TabIndex = 45;
             this.introQ6btn2.Text = "II. Network Categories – LAN, WAN, Internet";
-            this.introQ6btn2.UseVisualStyleBackColor = true;
+            this.introQ6btn2.UseVisualStyleBackColor = false;
             this.introQ6btn2.Click += new System.EventHandler(this.introQ6btn2_Click);
             // 
             // introQ6btn1
             // 
+            this.introQ6btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ6btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ6btn1.Location = new System.Drawing.Point(302, 197);
             this.introQ6btn1.Name = "introQ6btn1";
             this.introQ6btn1.Size = new System.Drawing.Size(483, 43);
             this.introQ6btn1.TabIndex = 44;
             this.introQ6btn1.Text = "I. Introduction to Computer Networks";
-            this.introQ6btn1.UseVisualStyleBackColor = true;
+            this.introQ6btn1.UseVisualStyleBackColor = false;
             this.introQ6btn1.Click += new System.EventHandler(this.introQ6btn1_Click);
             // 
             // panel2

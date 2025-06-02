@@ -92,46 +92,50 @@
             // 
             // pfQ2btn4
             // 
+            this.pfQ2btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pfQ2btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pfQ2btn4.Location = new System.Drawing.Point(302, 539);
             this.pfQ2btn4.Name = "pfQ2btn4";
             this.pfQ2btn4.Size = new System.Drawing.Size(483, 54);
             this.pfQ2btn4.TabIndex = 47;
             this.pfQ2btn4.Text = "IV. if, if-else, and Nested Conditions";
-            this.pfQ2btn4.UseVisualStyleBackColor = true;
+            this.pfQ2btn4.UseVisualStyleBackColor = false;
             this.pfQ2btn4.Click += new System.EventHandler(this.pfQ2btn4_Click);
             // 
             // pfQ2btn3
             // 
+            this.pfQ2btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pfQ2btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pfQ2btn3.Location = new System.Drawing.Point(302, 420);
             this.pfQ2btn3.Name = "pfQ2btn3";
             this.pfQ2btn3.Size = new System.Drawing.Size(483, 43);
             this.pfQ2btn3.TabIndex = 46;
             this.pfQ2btn3.Text = "III. Control Structure Basics";
-            this.pfQ2btn3.UseVisualStyleBackColor = true;
+            this.pfQ2btn3.UseVisualStyleBackColor = false;
             this.pfQ2btn3.Click += new System.EventHandler(this.pfQ2btn3_Click);
             // 
             // pfQ2btn2
             // 
+            this.pfQ2btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pfQ2btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pfQ2btn2.Location = new System.Drawing.Point(302, 310);
             this.pfQ2btn2.Name = "pfQ2btn2";
             this.pfQ2btn2.Size = new System.Drawing.Size(483, 43);
             this.pfQ2btn2.TabIndex = 45;
             this.pfQ2btn2.Text = "II.Python Operators ";
-            this.pfQ2btn2.UseVisualStyleBackColor = true;
+            this.pfQ2btn2.UseVisualStyleBackColor = false;
             this.pfQ2btn2.Click += new System.EventHandler(this.pfQ2btn2_Click);
             // 
             // pfQ2btn1
             // 
+            this.pfQ2btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pfQ2btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pfQ2btn1.Location = new System.Drawing.Point(302, 197);
             this.pfQ2btn1.Name = "pfQ2btn1";
             this.pfQ2btn1.Size = new System.Drawing.Size(483, 43);
             this.pfQ2btn1.TabIndex = 44;
             this.pfQ2btn1.Text = "l. Python Sequences & String Manipulation";
-            this.pfQ2btn1.UseVisualStyleBackColor = true;
+            this.pfQ2btn1.UseVisualStyleBackColor = false;
             this.pfQ2btn1.Click += new System.EventHandler(this.pfQ2btn1_Click);
             // 
             // panel2

@@ -91,35 +91,38 @@
             // 
             // mathsQ4btn3
             // 
+            this.mathsQ4btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.mathsQ4btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mathsQ4btn3.Location = new System.Drawing.Point(302, 420);
             this.mathsQ4btn3.Name = "mathsQ4btn3";
             this.mathsQ4btn3.Size = new System.Drawing.Size(483, 43);
             this.mathsQ4btn3.TabIndex = 40;
             this.mathsQ4btn3.Text = "III.Indices and Their Rules";
-            this.mathsQ4btn3.UseVisualStyleBackColor = true;
+            this.mathsQ4btn3.UseVisualStyleBackColor = false;
             this.mathsQ4btn3.Click += new System.EventHandler(this.mathsQ4btn3_Click);
             // 
             // mathsQ4btn2
             // 
+            this.mathsQ4btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.mathsQ4btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mathsQ4btn2.Location = new System.Drawing.Point(302, 307);
             this.mathsQ4btn2.Name = "mathsQ4btn2";
             this.mathsQ4btn2.Size = new System.Drawing.Size(483, 43);
             this.mathsQ4btn2.TabIndex = 39;
             this.mathsQ4btn2.Text = "II.Rational and Irrational Numbers";
-            this.mathsQ4btn2.UseVisualStyleBackColor = true;
+            this.mathsQ4btn2.UseVisualStyleBackColor = false;
             this.mathsQ4btn2.Click += new System.EventHandler(this.mathsQ4btn2_Click);
             // 
             // mathsQ4btn1
             // 
+            this.mathsQ4btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.mathsQ4btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mathsQ4btn1.Location = new System.Drawing.Point(302, 197);
             this.mathsQ4btn1.Name = "mathsQ4btn1";
             this.mathsQ4btn1.Size = new System.Drawing.Size(483, 43);
             this.mathsQ4btn1.TabIndex = 38;
             this.mathsQ4btn1.Text = "I.Types of Numbers";
-            this.mathsQ4btn1.UseVisualStyleBackColor = true;
+            this.mathsQ4btn1.UseVisualStyleBackColor = false;
             this.mathsQ4btn1.Click += new System.EventHandler(this.mathsQ4btn1_Click);
             // 
             // panel2

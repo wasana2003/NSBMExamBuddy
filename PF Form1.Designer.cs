@@ -92,46 +92,50 @@
             // 
             // pfQ1btn4
             // 
+            this.pfQ1btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pfQ1btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pfQ1btn4.Location = new System.Drawing.Point(302, 539);
             this.pfQ1btn4.Name = "pfQ1btn4";
             this.pfQ1btn4.Size = new System.Drawing.Size(483, 54);
             this.pfQ1btn4.TabIndex = 41;
             this.pfQ1btn4.Text = "IV. Compilers, Interpreters, Program Execution, Syntax, Semantics & Errors";
-            this.pfQ1btn4.UseVisualStyleBackColor = true;
+            this.pfQ1btn4.UseVisualStyleBackColor = false;
             this.pfQ1btn4.Click += new System.EventHandler(this.pfQ1btn4_Click);
             // 
             // pfQ1btn3
             // 
+            this.pfQ1btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pfQ1btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pfQ1btn3.Location = new System.Drawing.Point(302, 420);
             this.pfQ1btn3.Name = "pfQ1btn3";
             this.pfQ1btn3.Size = new System.Drawing.Size(483, 43);
             this.pfQ1btn3.TabIndex = 40;
             this.pfQ1btn3.Text = "III. Software Categories & Programming Languages";
-            this.pfQ1btn3.UseVisualStyleBackColor = true;
+            this.pfQ1btn3.UseVisualStyleBackColor = false;
             this.pfQ1btn3.Click += new System.EventHandler(this.pfQ1btn3_Click);
             // 
             // pfQ1btn2
             // 
+            this.pfQ1btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pfQ1btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pfQ1btn2.Location = new System.Drawing.Point(302, 310);
             this.pfQ1btn2.Name = "pfQ1btn2";
             this.pfQ1btn2.Size = new System.Drawing.Size(483, 43);
             this.pfQ1btn2.TabIndex = 39;
             this.pfQ1btn2.Text = "II. Syntax, Comments, Indentation & Variables, Data Types";
-            this.pfQ1btn2.UseVisualStyleBackColor = true;
+            this.pfQ1btn2.UseVisualStyleBackColor = false;
             this.pfQ1btn2.Click += new System.EventHandler(this.pfQ1btn2_Click);
             // 
             // pfQ1btn1
             // 
+            this.pfQ1btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pfQ1btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pfQ1btn1.Location = new System.Drawing.Point(302, 197);
             this.pfQ1btn1.Name = "pfQ1btn1";
             this.pfQ1btn1.Size = new System.Drawing.Size(483, 43);
             this.pfQ1btn1.TabIndex = 38;
             this.pfQ1btn1.Text = "l. Basics of Python and Why Python? ";
-            this.pfQ1btn1.UseVisualStyleBackColor = true;
+            this.pfQ1btn1.UseVisualStyleBackColor = false;
             this.pfQ1btn1.Click += new System.EventHandler(this.pfQ1btn1_Click);
             // 
             // panel2
