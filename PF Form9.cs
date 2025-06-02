@@ -21,6 +21,10 @@ namespace NSBMExamBuddy
             this.userID = userID;
         }
 
+        public PF_Form9()
+        {
+        }
+
         private void PF_Form9_Load(object sender, EventArgs e)
         {
             displayuser.Text = $"User :, {CurrentUser.Name}";
@@ -32,8 +36,9 @@ namespace NSBMExamBuddy
 
             int submoduleID = 29;
             int userID = CurrentUser.ID;
+            int moduleID = 9;
 
-            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID);
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID ,moduleID);
             quiz.Show();
             this.Hide();
         }

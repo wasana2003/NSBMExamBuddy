@@ -21,6 +21,10 @@ namespace NSBMExamBuddy
             this.userID = userID;
         }
 
+        public Intro_Form3()
+        {
+        }
+
         private void Intro_Form3_Load(object sender, EventArgs e)
         {
             displayuser.Text = $"User :, {CurrentUser.Name}";

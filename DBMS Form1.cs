@@ -21,6 +21,10 @@ namespace NSBMExamBuddy
             this.userID = userID;
         }
 
+        public DBMS_Form1()
+        {
+        }
+
         private void pfQ7btn2_Click(object sender, EventArgs e)
         {
             int submoduleID = 115;

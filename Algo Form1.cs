@@ -22,6 +22,10 @@ namespace NSBMExamBuddy
 
         }
 
+        public ALGO_Form1()
+        {
+        }
+
         private void ALGO_Form1_Load(object sender, EventArgs e)
         {
             displayuser.Text = $"User: , {CurrentUser.Name}";

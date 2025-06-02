@@ -15,6 +15,10 @@ namespace NSBMExamBuddy
     {
         private int userID;
 
+        public SAD_Form4()
+        {
+        }
+
         public SAD_Form4(int userID)
         {
             InitializeComponent();

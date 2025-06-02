@@ -15,6 +15,10 @@ namespace NSBMExamBuddy
     {
         private int userID;
 
+        public CA_Form7()
+        {
+        }
+
         public CA_Form7(int userID)
         {
             InitializeComponent();

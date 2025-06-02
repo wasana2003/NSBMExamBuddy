@@ -15,6 +15,10 @@ namespace NSBMExamBuddy
     {
         private int userID;
 
+        public PF_Form5()
+        {
+        }
+
         public PF_Form5(int userID)
         {
             InitializeComponent();
@@ -25,6 +29,39 @@ namespace NSBMExamBuddy
         {
             displayuser.Text = $"User :, {CurrentUser.Name}";
 
+        }
+
+        private void pfQ5tn1_Click(object sender, EventArgs e)
+        {
+            int submoduleID = 17;
+            int userID = CurrentUser.ID;
+            int moduleID = 5;
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID, moduleID);
+            quiz.Show();
+            this.Hide();
+        }
+
+        private void pfQ5btn2_Click(object sender, EventArgs e)
+        {
+            int submoduleID = 18;
+            int userID = CurrentUser.ID;
+            int moduleID = 5;
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID, moduleID);
+            quiz.Show();
+            this.Hide();
+        }
+
+        private void pfQ5btn3_Click(object sender, EventArgs e)
+        {
+            int submoduleID = 19;
+            int userID = CurrentUser.ID;
+            int moduleID = 5;
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID, moduleID);
+            quiz.Show();
+            this.Hide();
         }
     }
 }

@@ -13,14 +13,20 @@ namespace NSBMExamBuddy
 {
     public partial class Dashboard : Form
     {
+        private int userID;
+
         public Dashboard(int userID)
         {
             InitializeComponent();
+            this.Load += Dashboard_Load;
+
+            this.userID = userID;
+
         }
 
-        public Dashboard()
-        {
-        }
+        //public Dashboard()
+        //{
+        //}
 
         private void label2_Click(object sender, EventArgs e)
         {

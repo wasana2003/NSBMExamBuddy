@@ -21,6 +21,10 @@ namespace NSBMExamBuddy
             this.userID = userID;
         }
 
+        public PF_Form7()
+        {
+        }
+
         private void PF_Form7_Load(object sender, EventArgs e)
         {
             displayuser.Text = $"User :, {CurrentUser.Name}";
@@ -32,8 +36,9 @@ namespace NSBMExamBuddy
 
             int submoduleID = 23;
             int userID = CurrentUser.ID;
+            int moduleID = 7;
 
-            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID);
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID , moduleID);
             quiz.Show();
             this.Hide();
         }
@@ -43,8 +48,10 @@ namespace NSBMExamBuddy
 
             int submoduleID = 24;
             int userID = CurrentUser.ID;
+            int moduleID = 7;
 
-            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID);
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID , moduleID);
             quiz.Show();
             this.Hide();
         }
@@ -54,8 +61,10 @@ namespace NSBMExamBuddy
 
             int submoduleID = 25;
             int userID = CurrentUser.ID;
+            int moduleID = 7;
 
-            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID);
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID , moduleID);
             quiz.Show();
             this.Hide();
         }
@@ -65,8 +74,10 @@ namespace NSBMExamBuddy
 
             int submoduleID = 26;
             int userID = CurrentUser.ID;
+            int moduleID = 7;
 
-            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID);
+
+            Intro_Q_set1 quiz = new Intro_Q_set1(submoduleID, userID,moduleID);
             quiz.Show();
             this.Hide();
         }

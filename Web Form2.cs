@@ -22,6 +22,10 @@ namespace NSBMExamBuddy
 
         }
 
+        public Web_Form2()
+        {
+        }
+
         private void Web_Form2_Load(object sender, EventArgs e)
         {
             displayuser.Text = $"User :, {CurrentUser.Name}";

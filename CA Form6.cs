@@ -22,6 +22,10 @@ namespace NSBMExamBuddy
 
         }
 
+        public CA_Form6()
+        {
+        }
+
         private void CA_Form6_Load(object sender, EventArgs e)
         {
             displayuser.Text = $"User :, {CurrentUser.Name}";

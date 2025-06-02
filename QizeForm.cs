@@ -13,10 +13,10 @@ namespace NSBMExamBuddy
         //private int submoduleID;
         private Dictionary<int, Func<Form>> moduleNavigationMap;
         //private int moduleID;
-        public Intro_Q_set1()
-        {
-            InitializeComponent();
-        }
+        //public Intro_Q_set1()
+        //{
+        //    InitializeComponent();
+        //}
         private int score = 0;
         private int submoduleID;
         private int userID;
@@ -25,6 +25,9 @@ namespace NSBMExamBuddy
         public Intro_Q_set1(int submoduleID, int userID , int moduleID)
         {
             InitializeComponent();
+            this.submoduleID = submoduleID;
+            this.userID = userID;
+            this.moduleID = moduleID;
             moduleNavigationMap = new Dictionary<int, Func<Form>>()
 {
     { 1, () => new PF_Form1(userID) },
@@ -111,11 +114,9 @@ namespace NSBMExamBuddy
             }
         }
 
-        public Intro_Q_set1(int submoduleID, int userID)
-        {
-            this.submoduleID = submoduleID;
-            this.userID = userID;
-        }
+        
+
+       
 
         private void Intro_Q_set1_Load(object sender, EventArgs e)
         {

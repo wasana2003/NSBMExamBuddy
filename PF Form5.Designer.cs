@@ -98,6 +98,7 @@
             this.pfQ5btn3.TabIndex = 58;
             this.pfQ5btn3.Text = "III. List Functions (append, extend, insert, reverse, sort, del)";
             this.pfQ5btn3.UseVisualStyleBackColor = true;
+            this.pfQ5btn3.Click += new System.EventHandler(this.pfQ5btn3_Click);
             // 
             // pfQ5btn2
             // 
@@ -108,6 +109,7 @@
             this.pfQ5btn2.TabIndex = 57;
             this.pfQ5btn2.Text = "II.List Slicing & Assignment";
             this.pfQ5btn2.UseVisualStyleBackColor = true;
+            this.pfQ5btn2.Click += new System.EventHandler(this.pfQ5btn2_Click);
             // 
             // pfQ5tn1
             // 
@@ -118,6 +120,7 @@
             this.pfQ5tn1.TabIndex = 56;
             this.pfQ5tn1.Text = "l. List Basics & Indexing";
             this.pfQ5tn1.UseVisualStyleBackColor = true;
+            this.pfQ5tn1.Click += new System.EventHandler(this.pfQ5tn1_Click);
             // 
             // panel2
             // 

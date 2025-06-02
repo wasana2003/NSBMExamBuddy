@@ -22,6 +22,10 @@ namespace NSBMExamBuddy
 
         }
 
+        public Intro_Form5()
+        {
+        }
+
         private void Intro_Form5_Load(object sender, EventArgs e)
         {
             displayuser.Text = $"User :, {CurrentUser.Name}";

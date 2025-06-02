@@ -21,6 +21,10 @@ namespace NSBMExamBuddy
             this.userID = userID;
         }
 
+        public Intro_Form1()
+        {
+        }
+
         private void introQ1btn1_Click(object sender, EventArgs e)
         {
 
