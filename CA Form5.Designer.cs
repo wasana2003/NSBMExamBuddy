@@ -92,43 +92,47 @@
             // 
             // caQ5btn4
             // 
+            this.caQ5btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ5btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ5btn4.Location = new System.Drawing.Point(302, 526);
             this.caQ5btn4.Name = "caQ5btn4";
             this.caQ5btn4.Size = new System.Drawing.Size(483, 43);
             this.caQ5btn4.TabIndex = 153;
             this.caQ5btn4.Text = "IV. Demultiplexers (DEMUX)";
-            this.caQ5btn4.UseVisualStyleBackColor = true;
+            this.caQ5btn4.UseVisualStyleBackColor = false;
             // 
             // caQ5btn3
             // 
+            this.caQ5btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ5btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ5btn3.Location = new System.Drawing.Point(302, 420);
             this.caQ5btn3.Name = "caQ5btn3";
             this.caQ5btn3.Size = new System.Drawing.Size(483, 43);
             this.caQ5btn3.TabIndex = 152;
             this.caQ5btn3.Text = "III. Multiplexers (MUX)";
-            this.caQ5btn3.UseVisualStyleBackColor = true;
+            this.caQ5btn3.UseVisualStyleBackColor = false;
             // 
             // caQ5btn2
             // 
+            this.caQ5btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ5btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ5btn2.Location = new System.Drawing.Point(302, 311);
             this.caQ5btn2.Name = "caQ5btn2";
             this.caQ5btn2.Size = new System.Drawing.Size(483, 43);
             this.caQ5btn2.TabIndex = 151;
             this.caQ5btn2.Text = "II. Binary Adders and Arithmetic Circuits";
-            this.caQ5btn2.UseVisualStyleBackColor = true;
+            this.caQ5btn2.UseVisualStyleBackColor = false;
             // 
             // caQ5btn1
             // 
+            this.caQ5btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ5btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ5btn1.Location = new System.Drawing.Point(302, 197);
             this.caQ5btn1.Name = "caQ5btn1";
             this.caQ5btn1.Size = new System.Drawing.Size(483, 43);
             this.caQ5btn1.TabIndex = 150;
             this.caQ5btn1.Text = "I. Introduction to Combinational Logic Circuits";
-            this.caQ5btn1.UseVisualStyleBackColor = true;
+            this.caQ5btn1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 

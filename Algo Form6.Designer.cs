@@ -91,7 +91,7 @@
             // 
             // algoQ6btn3
             // 
-            this.algoQ6btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
+            this.algoQ6btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ6btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ6btn3.Location = new System.Drawing.Point(302, 420);
             this.algoQ6btn3.Name = "algoQ6btn3";
@@ -103,24 +103,26 @@
             // 
             // algoQ6btn2
             // 
+            this.algoQ6btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ6btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ6btn2.Location = new System.Drawing.Point(302, 310);
             this.algoQ6btn2.Name = "algoQ6btn2";
             this.algoQ6btn2.Size = new System.Drawing.Size(483, 43);
             this.algoQ6btn2.TabIndex = 122;
             this.algoQ6btn2.Text = "II. Time complexity Basics";
-            this.algoQ6btn2.UseVisualStyleBackColor = true;
+            this.algoQ6btn2.UseVisualStyleBackColor = false;
             this.algoQ6btn2.Click += new System.EventHandler(this.algoQ6btn2_Click);
             // 
             // algoQ6btn1
             // 
+            this.algoQ6btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ6btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ6btn1.Location = new System.Drawing.Point(302, 197);
             this.algoQ6btn1.Name = "algoQ6btn1";
             this.algoQ6btn1.Size = new System.Drawing.Size(483, 43);
             this.algoQ6btn1.TabIndex = 121;
             this.algoQ6btn1.Text = "I. Characteristics of a good algorithm";
-            this.algoQ6btn1.UseVisualStyleBackColor = true;
+            this.algoQ6btn1.UseVisualStyleBackColor = false;
             this.algoQ6btn1.Click += new System.EventHandler(this.algoQ6btn1_Click);
             // 
             // panel2

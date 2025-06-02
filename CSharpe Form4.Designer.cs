@@ -91,33 +91,36 @@
             // 
             // csharpeQ4btn3
             // 
+            this.csharpeQ4btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.csharpeQ4btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ4btn3.Location = new System.Drawing.Point(302, 433);
             this.csharpeQ4btn3.Name = "csharpeQ4btn3";
             this.csharpeQ4btn3.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ4btn3.TabIndex = 247;
             this.csharpeQ4btn3.Text = "III. Polymorphism";
-            this.csharpeQ4btn3.UseVisualStyleBackColor = true;
+            this.csharpeQ4btn3.UseVisualStyleBackColor = false;
             // 
             // csharpeQ4btn2
             // 
+            this.csharpeQ4btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.csharpeQ4btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ4btn2.Location = new System.Drawing.Point(302, 311);
             this.csharpeQ4btn2.Name = "csharpeQ4btn2";
             this.csharpeQ4btn2.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ4btn2.TabIndex = 246;
             this.csharpeQ4btn2.Text = "Abstraction";
-            this.csharpeQ4btn2.UseVisualStyleBackColor = true;
+            this.csharpeQ4btn2.UseVisualStyleBackColor = false;
             // 
             // csharpeQ4btn1
             // 
+            this.csharpeQ4btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.csharpeQ4btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ4btn1.Location = new System.Drawing.Point(302, 197);
             this.csharpeQ4btn1.Name = "csharpeQ4btn1";
             this.csharpeQ4btn1.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ4btn1.TabIndex = 245;
             this.csharpeQ4btn1.Text = "I. Inheritance";
-            this.csharpeQ4btn1.UseVisualStyleBackColor = true;
+            this.csharpeQ4btn1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 

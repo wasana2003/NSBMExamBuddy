@@ -89,13 +89,14 @@
             // 
             // csharpeQ7btn1
             // 
+            this.csharpeQ7btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.csharpeQ7btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ7btn1.Location = new System.Drawing.Point(302, 197);
             this.csharpeQ7btn1.Name = "csharpeQ7btn1";
             this.csharpeQ7btn1.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ7btn1.TabIndex = 256;
             this.csharpeQ7btn1.Text = "I. Exception Handling in C#";
-            this.csharpeQ7btn1.UseVisualStyleBackColor = true;
+            this.csharpeQ7btn1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 

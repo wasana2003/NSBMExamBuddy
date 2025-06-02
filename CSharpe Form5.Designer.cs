@@ -90,23 +90,25 @@
             // 
             // csharpeQ5btn2
             // 
+            this.csharpeQ5btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.csharpeQ5btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ5btn2.Location = new System.Drawing.Point(302, 311);
             this.csharpeQ5btn2.Name = "csharpeQ5btn2";
             this.csharpeQ5btn2.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ5btn2.TabIndex = 251;
             this.csharpeQ5btn2.Text = "II. Application Flow in Windows Forms";
-            this.csharpeQ5btn2.UseVisualStyleBackColor = true;
+            this.csharpeQ5btn2.UseVisualStyleBackColor = false;
             // 
             // csharpeQ5btn1
             // 
+            this.csharpeQ5btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.csharpeQ5btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ5btn1.Location = new System.Drawing.Point(302, 197);
             this.csharpeQ5btn1.Name = "csharpeQ5btn1";
             this.csharpeQ5btn1.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ5btn1.TabIndex = 250;
             this.csharpeQ5btn1.Text = "I. Form Validation in C# Windows Forms";
-            this.csharpeQ5btn1.UseVisualStyleBackColor = true;
+            this.csharpeQ5btn1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 

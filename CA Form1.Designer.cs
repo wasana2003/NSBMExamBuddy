@@ -92,43 +92,47 @@
             // 
             // caQ1btn2
             // 
+            this.caQ1btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ1btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ1btn2.Location = new System.Drawing.Point(302, 311);
             this.caQ1btn2.Name = "caQ1btn2";
             this.caQ1btn2.Size = new System.Drawing.Size(483, 43);
             this.caQ1btn2.TabIndex = 127;
             this.caQ1btn2.Text = "II. Basics of Computer Systems";
-            this.caQ1btn2.UseVisualStyleBackColor = true;
+            this.caQ1btn2.UseVisualStyleBackColor = false;
             // 
             // caQ1btn1
             // 
+            this.caQ1btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ1btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ1btn1.Location = new System.Drawing.Point(302, 197);
             this.caQ1btn1.Name = "caQ1btn1";
             this.caQ1btn1.Size = new System.Drawing.Size(483, 43);
             this.caQ1btn1.TabIndex = 126;
             this.caQ1btn1.Text = "I. Fundamentals of Computer Architecture";
-            this.caQ1btn1.UseVisualStyleBackColor = true;
+            this.caQ1btn1.UseVisualStyleBackColor = false;
             // 
             // caQ1btn3
             // 
+            this.caQ1btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ1btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ1btn3.Location = new System.Drawing.Point(302, 420);
             this.caQ1btn3.Name = "caQ1btn3";
             this.caQ1btn3.Size = new System.Drawing.Size(483, 43);
             this.caQ1btn3.TabIndex = 128;
             this.caQ1btn3.Text = "III.  Computer Hardware Components and Operations";
-            this.caQ1btn3.UseVisualStyleBackColor = true;
+            this.caQ1btn3.UseVisualStyleBackColor = false;
             // 
             // caQ1btn4
             // 
+            this.caQ1btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ1btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ1btn4.Location = new System.Drawing.Point(302, 527);
             this.caQ1btn4.Name = "caQ1btn4";
             this.caQ1btn4.Size = new System.Drawing.Size(483, 43);
             this.caQ1btn4.TabIndex = 129;
             this.caQ1btn4.Text = "IV. System Architecture Concepts and Design Goals";
-            this.caQ1btn4.UseVisualStyleBackColor = true;
+            this.caQ1btn4.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 

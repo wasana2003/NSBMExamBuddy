@@ -92,46 +92,50 @@
             // 
             // algoQ3btn4
             // 
+            this.algoQ3btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ3btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ3btn4.Location = new System.Drawing.Point(302, 527);
             this.algoQ3btn4.Name = "algoQ3btn4";
             this.algoQ3btn4.Size = new System.Drawing.Size(483, 43);
             this.algoQ3btn4.TabIndex = 106;
             this.algoQ3btn4.Text = "IV. Merge sort";
-            this.algoQ3btn4.UseVisualStyleBackColor = true;
+            this.algoQ3btn4.UseVisualStyleBackColor = false;
             this.algoQ3btn4.Click += new System.EventHandler(this.algoQ3btn4_Click);
             // 
             // algoQ3btn3
             // 
+            this.algoQ3btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ3btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ3btn3.Location = new System.Drawing.Point(302, 420);
             this.algoQ3btn3.Name = "algoQ3btn3";
             this.algoQ3btn3.Size = new System.Drawing.Size(483, 43);
             this.algoQ3btn3.TabIndex = 105;
             this.algoQ3btn3.Text = "III. Insertion sort";
-            this.algoQ3btn3.UseVisualStyleBackColor = true;
+            this.algoQ3btn3.UseVisualStyleBackColor = false;
             this.algoQ3btn3.Click += new System.EventHandler(this.algoQ3btn3_Click);
             // 
             // algoQ3btn2
             // 
+            this.algoQ3btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ3btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ3btn2.Location = new System.Drawing.Point(302, 310);
             this.algoQ3btn2.Name = "algoQ3btn2";
             this.algoQ3btn2.Size = new System.Drawing.Size(483, 43);
             this.algoQ3btn2.TabIndex = 104;
             this.algoQ3btn2.Text = "II. Bubble sort";
-            this.algoQ3btn2.UseVisualStyleBackColor = true;
+            this.algoQ3btn2.UseVisualStyleBackColor = false;
             this.algoQ3btn2.Click += new System.EventHandler(this.algoQ3btn2_Click);
             // 
             // algoQ3btn1
             // 
+            this.algoQ3btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ3btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ3btn1.Location = new System.Drawing.Point(302, 197);
             this.algoQ3btn1.Name = "algoQ3btn1";
             this.algoQ3btn1.Size = new System.Drawing.Size(483, 43);
             this.algoQ3btn1.TabIndex = 103;
             this.algoQ3btn1.Text = "I. Selection sort";
-            this.algoQ3btn1.UseVisualStyleBackColor = true;
+            this.algoQ3btn1.UseVisualStyleBackColor = false;
             this.algoQ3btn1.Click += new System.EventHandler(this.algoQ3btn1_Click);
             // 
             // panel5

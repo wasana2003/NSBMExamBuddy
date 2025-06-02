@@ -90,23 +90,25 @@
             // 
             // csharpeQ1btn2
             // 
+            this.csharpeQ1btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.csharpeQ1btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ1btn2.Location = new System.Drawing.Point(302, 311);
             this.csharpeQ1btn2.Name = "csharpeQ1btn2";
             this.csharpeQ1btn2.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ1btn2.TabIndex = 232;
             this.csharpeQ1btn2.Text = "II. Variables & Data Types in C#";
-            this.csharpeQ1btn2.UseVisualStyleBackColor = true;
+            this.csharpeQ1btn2.UseVisualStyleBackColor = false;
             // 
             // csharpeQ1btn1
             // 
+            this.csharpeQ1btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.csharpeQ1btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ1btn1.Location = new System.Drawing.Point(302, 197);
             this.csharpeQ1btn1.Name = "csharpeQ1btn1";
             this.csharpeQ1btn1.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ1btn1.TabIndex = 231;
             this.csharpeQ1btn1.Text = "I. C# Basics ";
-            this.csharpeQ1btn1.UseVisualStyleBackColor = true;
+            this.csharpeQ1btn1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 

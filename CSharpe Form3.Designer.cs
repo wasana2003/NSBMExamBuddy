@@ -91,33 +91,36 @@
             // 
             // csharpeQ3btn3
             // 
+            this.csharpeQ3btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.csharpeQ3btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ3btn3.Location = new System.Drawing.Point(302, 433);
             this.csharpeQ3btn3.Name = "csharpeQ3btn3";
             this.csharpeQ3btn3.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ3btn3.TabIndex = 242;
             this.csharpeQ3btn3.Text = "3.Encapsulation";
-            this.csharpeQ3btn3.UseVisualStyleBackColor = true;
+            this.csharpeQ3btn3.UseVisualStyleBackColor = false;
             // 
             // csharpeQ3btn2
             // 
+            this.csharpeQ3btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.csharpeQ3btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ3btn2.Location = new System.Drawing.Point(302, 311);
             this.csharpeQ3btn2.Name = "csharpeQ3btn2";
             this.csharpeQ3btn2.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ3btn2.TabIndex = 241;
             this.csharpeQ3btn2.Text = "2.\tAccess Specifiers / Modifiers";
-            this.csharpeQ3btn2.UseVisualStyleBackColor = true;
+            this.csharpeQ3btn2.UseVisualStyleBackColor = false;
             // 
             // csharpeQ3btn1
             // 
+            this.csharpeQ3btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.csharpeQ3btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ3btn1.Location = new System.Drawing.Point(302, 197);
             this.csharpeQ3btn1.Name = "csharpeQ3btn1";
             this.csharpeQ3btn1.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ3btn1.TabIndex = 240;
             this.csharpeQ3btn1.Text = "I. OOP Concepts";
-            this.csharpeQ3btn1.UseVisualStyleBackColor = true;
+            this.csharpeQ3btn1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 

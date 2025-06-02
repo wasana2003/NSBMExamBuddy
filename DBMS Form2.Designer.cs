@@ -93,43 +93,47 @@
             // 
             // dbmsQ2btn4
             // 
+            this.dbmsQ2btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ2btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ2btn4.Location = new System.Drawing.Point(302, 539);
             this.dbmsQ2btn4.Name = "dbmsQ2btn4";
             this.dbmsQ2btn4.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ2btn4.TabIndex = 71;
             this.dbmsQ2btn4.Text = "IV.DBMS Architecture and Systems";
-            this.dbmsQ2btn4.UseVisualStyleBackColor = true;
+            this.dbmsQ2btn4.UseVisualStyleBackColor = false;
             // 
             // dbmsQ2btn3
             // 
+            this.dbmsQ2btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ2btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ2btn3.Location = new System.Drawing.Point(302, 420);
             this.dbmsQ2btn3.Name = "dbmsQ2btn3";
             this.dbmsQ2btn3.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ2btn3.TabIndex = 70;
             this.dbmsQ2btn3.Text = "III. Relational Model & Constraints";
-            this.dbmsQ2btn3.UseVisualStyleBackColor = true;
+            this.dbmsQ2btn3.UseVisualStyleBackColor = false;
             // 
             // dbmsQ2btn2
             // 
+            this.dbmsQ2btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ2btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ2btn2.Location = new System.Drawing.Point(302, 310);
             this.dbmsQ2btn2.Name = "dbmsQ2btn2";
             this.dbmsQ2btn2.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ2btn2.TabIndex = 69;
             this.dbmsQ2btn2.Text = "II.Database Models and Structures";
-            this.dbmsQ2btn2.UseVisualStyleBackColor = true;
+            this.dbmsQ2btn2.UseVisualStyleBackColor = false;
             // 
             // dbmsQ2btn1
             // 
+            this.dbmsQ2btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ2btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ2btn1.Location = new System.Drawing.Point(302, 197);
             this.dbmsQ2btn1.Name = "dbmsQ2btn1";
             this.dbmsQ2btn1.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ2btn1.TabIndex = 68;
             this.dbmsQ2btn1.Text = "I. Core Database Concepts";
-            this.dbmsQ2btn1.UseVisualStyleBackColor = true;
+            this.dbmsQ2btn1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
@@ -147,6 +151,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.MediumPurple;
             this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button2.Location = new System.Drawing.Point(0, 367);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(200, 43);
@@ -158,6 +163,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.MediumPurple;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button3.Location = new System.Drawing.Point(42, 456);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(114, 34);
@@ -169,6 +175,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.MediumPurple;
             this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button4.Location = new System.Drawing.Point(0, 283);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(200, 43);
@@ -180,6 +187,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.MediumPurple;
             this.button5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button5.Location = new System.Drawing.Point(0, 198);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(200, 43);
@@ -191,6 +199,7 @@
             // 
             this.button6.BackColor = System.Drawing.Color.MediumPurple;
             this.button6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button6.Location = new System.Drawing.Point(0, 120);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(200, 43);

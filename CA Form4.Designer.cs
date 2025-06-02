@@ -92,43 +92,47 @@
             // 
             // caQ4btn4
             // 
+            this.caQ4btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ4btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ4btn4.Location = new System.Drawing.Point(302, 526);
             this.caQ4btn4.Name = "caQ4btn4";
             this.caQ4btn4.Size = new System.Drawing.Size(483, 43);
             this.caQ4btn4.TabIndex = 147;
             this.caQ4btn4.Text = "IV. Essential Electronic Components and Applications";
-            this.caQ4btn4.UseVisualStyleBackColor = true;
+            this.caQ4btn4.UseVisualStyleBackColor = false;
             // 
             // caQ4btn3
             // 
+            this.caQ4btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ4btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ4btn3.Location = new System.Drawing.Point(302, 420);
             this.caQ4btn3.Name = "caQ4btn3";
             this.caQ4btn3.Size = new System.Drawing.Size(483, 43);
             this.caQ4btn3.TabIndex = 146;
             this.caQ4btn3.Text = "III. DC Circuits: Series, Parallel, and Series-Parallel";
-            this.caQ4btn3.UseVisualStyleBackColor = true;
+            this.caQ4btn3.UseVisualStyleBackColor = false;
             // 
             // caQ4btn2
             // 
+            this.caQ4btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ4btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ4btn2.Location = new System.Drawing.Point(302, 311);
             this.caQ4btn2.Name = "caQ4btn2";
             this.caQ4btn2.Size = new System.Drawing.Size(483, 43);
             this.caQ4btn2.TabIndex = 145;
             this.caQ4btn2.Text = "II. Electricity Fundamentals: Voltage, Current, Resistance";
-            this.caQ4btn2.UseVisualStyleBackColor = true;
+            this.caQ4btn2.UseVisualStyleBackColor = false;
             // 
             // caQ4btn1
             // 
+            this.caQ4btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ4btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ4btn1.Location = new System.Drawing.Point(302, 197);
             this.caQ4btn1.Name = "caQ4btn1";
             this.caQ4btn1.Size = new System.Drawing.Size(483, 43);
             this.caQ4btn1.TabIndex = 144;
             this.caQ4btn1.Text = "I.  Atomic Structure and Electrical Properties";
-            this.caQ4btn1.UseVisualStyleBackColor = true;
+            this.caQ4btn1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 

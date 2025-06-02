@@ -92,43 +92,47 @@
             // 
             // caQ3btn4
             // 
+            this.caQ3btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ3btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ3btn4.Location = new System.Drawing.Point(302, 527);
             this.caQ3btn4.Name = "caQ3btn4";
             this.caQ3btn4.Size = new System.Drawing.Size(483, 43);
             this.caQ3btn4.TabIndex = 141;
             this.caQ3btn4.Text = "IV. De Morgan’s Theorem and Karnaugh Maps";
-            this.caQ3btn4.UseVisualStyleBackColor = true;
+            this.caQ3btn4.UseVisualStyleBackColor = false;
             // 
             // caQ3btn3
             // 
+            this.caQ3btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ3btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ3btn3.Location = new System.Drawing.Point(302, 420);
             this.caQ3btn3.Name = "caQ3btn3";
             this.caQ3btn3.Size = new System.Drawing.Size(483, 43);
             this.caQ3btn3.TabIndex = 140;
             this.caQ3btn3.Text = "III. Boolean Laws and Simplification Techniques";
-            this.caQ3btn3.UseVisualStyleBackColor = true;
+            this.caQ3btn3.UseVisualStyleBackColor = false;
             // 
             // caQ3btn2
             // 
+            this.caQ3btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ3btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ3btn2.Location = new System.Drawing.Point(302, 311);
             this.caQ3btn2.Name = "caQ3btn2";
             this.caQ3btn2.Size = new System.Drawing.Size(483, 43);
             this.caQ3btn2.TabIndex = 139;
             this.caQ3btn2.Text = "II. Minterms, Maxterms, SOP and POS";
-            this.caQ3btn2.UseVisualStyleBackColor = true;
+            this.caQ3btn2.UseVisualStyleBackColor = false;
             // 
             // caQ3btn1
             // 
+            this.caQ3btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ3btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ3btn1.Location = new System.Drawing.Point(302, 197);
             this.caQ3btn1.Name = "caQ3btn1";
             this.caQ3btn1.Size = new System.Drawing.Size(483, 43);
             this.caQ3btn1.TabIndex = 138;
             this.caQ3btn1.Text = "I. Core Concepts of Boolean Algebra";
-            this.caQ3btn1.UseVisualStyleBackColor = true;
+            this.caQ3btn1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 

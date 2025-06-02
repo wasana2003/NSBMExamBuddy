@@ -92,43 +92,47 @@
             // 
             // dbmsQ5btn4
             // 
+            this.dbmsQ5btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ5btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ5btn4.Location = new System.Drawing.Point(302, 539);
             this.dbmsQ5btn4.Name = "dbmsQ5btn4";
             this.dbmsQ5btn4.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ5btn4.TabIndex = 83;
             this.dbmsQ5btn4.Text = "IV.Comprehensive Normalization Review";
-            this.dbmsQ5btn4.UseVisualStyleBackColor = true;
+            this.dbmsQ5btn4.UseVisualStyleBackColor = false;
             // 
             // dbmsQ5btn3
             // 
+            this.dbmsQ5btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ5btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ5btn3.Location = new System.Drawing.Point(302, 420);
             this.dbmsQ5btn3.Name = "dbmsQ5btn3";
             this.dbmsQ5btn3.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ5btn3.TabIndex = 82;
             this.dbmsQ5btn3.Text = "III. Third Normal Form (3NF)";
-            this.dbmsQ5btn3.UseVisualStyleBackColor = true;
+            this.dbmsQ5btn3.UseVisualStyleBackColor = false;
             // 
             // dbmsQ5btn2
             // 
+            this.dbmsQ5btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ5btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ5btn2.Location = new System.Drawing.Point(302, 310);
             this.dbmsQ5btn2.Name = "dbmsQ5btn2";
             this.dbmsQ5btn2.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ5btn2.TabIndex = 81;
             this.dbmsQ5btn2.Text = "II.Second Normal Form (2NF)";
-            this.dbmsQ5btn2.UseVisualStyleBackColor = true;
+            this.dbmsQ5btn2.UseVisualStyleBackColor = false;
             // 
             // dbmsQ5btn1
             // 
+            this.dbmsQ5btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ5btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ5btn1.Location = new System.Drawing.Point(302, 197);
             this.dbmsQ5btn1.Name = "dbmsQ5btn1";
             this.dbmsQ5btn1.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ5btn1.TabIndex = 80;
             this.dbmsQ5btn1.Text = "I. Introduction to Database Normalization and 1NF";
-            this.dbmsQ5btn1.UseVisualStyleBackColor = true;
+            this.dbmsQ5btn1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 

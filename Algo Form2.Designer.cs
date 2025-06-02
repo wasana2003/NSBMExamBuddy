@@ -92,46 +92,50 @@
             // 
             // algoQ2btn3
             // 
+            this.algoQ2btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ2btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ2btn3.Location = new System.Drawing.Point(302, 420);
             this.algoQ2btn3.Name = "algoQ2btn3";
             this.algoQ2btn3.Size = new System.Drawing.Size(483, 43);
             this.algoQ2btn3.TabIndex = 99;
             this.algoQ2btn3.Text = "III. Stack concept";
-            this.algoQ2btn3.UseVisualStyleBackColor = true;
+            this.algoQ2btn3.UseVisualStyleBackColor = false;
             this.algoQ2btn3.Click += new System.EventHandler(this.algoQ2btn3_Click);
             // 
             // algoQ2btn2
             // 
+            this.algoQ2btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ2btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ2btn2.Location = new System.Drawing.Point(302, 310);
             this.algoQ2btn2.Name = "algoQ2btn2";
             this.algoQ2btn2.Size = new System.Drawing.Size(483, 43);
             this.algoQ2btn2.TabIndex = 98;
             this.algoQ2btn2.Text = "II. Binary search";
-            this.algoQ2btn2.UseVisualStyleBackColor = true;
+            this.algoQ2btn2.UseVisualStyleBackColor = false;
             this.algoQ2btn2.Click += new System.EventHandler(this.algoQ2btn2_Click);
             // 
             // algoQ2btn1
             // 
+            this.algoQ2btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ2btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ2btn1.Location = new System.Drawing.Point(302, 197);
             this.algoQ2btn1.Name = "algoQ2btn1";
             this.algoQ2btn1.Size = new System.Drawing.Size(483, 43);
             this.algoQ2btn1.TabIndex = 97;
             this.algoQ2btn1.Text = "I. Linear search ";
-            this.algoQ2btn1.UseVisualStyleBackColor = true;
+            this.algoQ2btn1.UseVisualStyleBackColor = false;
             this.algoQ2btn1.Click += new System.EventHandler(this.algoQ2btn1_Click);
             // 
             // algoQ2btn4
             // 
+            this.algoQ2btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ2btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ2btn4.Location = new System.Drawing.Point(302, 527);
             this.algoQ2btn4.Name = "algoQ2btn4";
             this.algoQ2btn4.Size = new System.Drawing.Size(483, 43);
             this.algoQ2btn4.TabIndex = 100;
             this.algoQ2btn4.Text = "IV. Queue concept";
-            this.algoQ2btn4.UseVisualStyleBackColor = true;
+            this.algoQ2btn4.UseVisualStyleBackColor = false;
             this.algoQ2btn4.Click += new System.EventHandler(this.algoQ2btn4_Click);
             // 
             // panel5

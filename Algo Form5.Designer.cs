@@ -92,46 +92,50 @@
             // 
             // algoQ5btn4
             // 
+            this.algoQ5btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ5btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ5btn4.Location = new System.Drawing.Point(302, 527);
             this.algoQ5btn4.Name = "algoQ5btn4";
             this.algoQ5btn4.Size = new System.Drawing.Size(483, 43);
             this.algoQ5btn4.TabIndex = 118;
             this.algoQ5btn4.Text = "IV. GCD using Euclid’s Algorithm";
-            this.algoQ5btn4.UseVisualStyleBackColor = true;
+            this.algoQ5btn4.UseVisualStyleBackColor = false;
             this.algoQ5btn4.Click += new System.EventHandler(this.algoQ5btn4_Click);
             // 
             // algoQ5btn3
             // 
+            this.algoQ5btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ5btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ5btn3.Location = new System.Drawing.Point(302, 420);
             this.algoQ5btn3.Name = "algoQ5btn3";
             this.algoQ5btn3.Size = new System.Drawing.Size(483, 43);
             this.algoQ5btn3.TabIndex = 117;
             this.algoQ5btn3.Text = "III. Factorial";
-            this.algoQ5btn3.UseVisualStyleBackColor = true;
+            this.algoQ5btn3.UseVisualStyleBackColor = false;
             this.algoQ5btn3.Click += new System.EventHandler(this.algoQ5btn3_Click);
             // 
             // algoQ5btn2
             // 
+            this.algoQ5btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ5btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ5btn2.Location = new System.Drawing.Point(302, 310);
             this.algoQ5btn2.Name = "algoQ5btn2";
             this.algoQ5btn2.Size = new System.Drawing.Size(483, 43);
             this.algoQ5btn2.TabIndex = 116;
             this.algoQ5btn2.Text = "II. Recursion";
-            this.algoQ5btn2.UseVisualStyleBackColor = true;
+            this.algoQ5btn2.UseVisualStyleBackColor = false;
             this.algoQ5btn2.Click += new System.EventHandler(this.algoQ5btn2_Click);
             // 
             // algoQ5btn1
             // 
+            this.algoQ5btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ5btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ5btn1.Location = new System.Drawing.Point(302, 197);
             this.algoQ5btn1.Name = "algoQ5btn1";
             this.algoQ5btn1.Size = new System.Drawing.Size(483, 43);
             this.algoQ5btn1.TabIndex = 115;
             this.algoQ5btn1.Text = "I. Iteration ";
-            this.algoQ5btn1.UseVisualStyleBackColor = true;
+            this.algoQ5btn1.UseVisualStyleBackColor = false;
             this.algoQ5btn1.Click += new System.EventHandler(this.algoQ5btn1_Click);
             // 
             // panel2

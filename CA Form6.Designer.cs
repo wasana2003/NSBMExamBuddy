@@ -92,43 +92,48 @@
             // 
             // caQ6btn4
             // 
+            this.caQ6btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ6btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ6btn4.Location = new System.Drawing.Point(302, 526);
             this.caQ6btn4.Name = "caQ6btn4";
             this.caQ6btn4.Size = new System.Drawing.Size(483, 43);
             this.caQ6btn4.TabIndex = 159;
             this.caQ6btn4.Text = "IV. Applications and Analysis of Sequential Circuits";
-            this.caQ6btn4.UseVisualStyleBackColor = true;
+            this.caQ6btn4.UseVisualStyleBackColor = false;
             // 
             // caQ6btn3
             // 
+            this.caQ6btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ6btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ6btn3.Location = new System.Drawing.Point(302, 420);
             this.caQ6btn3.Name = "caQ6btn3";
             this.caQ6btn3.Size = new System.Drawing.Size(483, 43);
             this.caQ6btn3.TabIndex = 158;
             this.caQ6btn3.Text = "III. Understanding Clock Signals";
-            this.caQ6btn3.UseVisualStyleBackColor = true;
+            this.caQ6btn3.UseVisualStyleBackColor = false;
             // 
             // caQ6btn2
             // 
+            this.caQ6btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ6btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ6btn2.Location = new System.Drawing.Point(302, 311);
             this.caQ6btn2.Name = "caQ6btn2";
             this.caQ6btn2.Size = new System.Drawing.Size(483, 43);
             this.caQ6btn2.TabIndex = 157;
             this.caQ6btn2.Text = "II. Types and Behaviors of Sequential Circuits";
-            this.caQ6btn2.UseVisualStyleBackColor = true;
+            this.caQ6btn2.UseVisualStyleBackColor = false;
             // 
             // caQ6btn1
             // 
+            this.caQ6btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ6btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ6btn1.Location = new System.Drawing.Point(302, 197);
             this.caQ6btn1.Name = "caQ6btn1";
             this.caQ6btn1.Size = new System.Drawing.Size(483, 43);
             this.caQ6btn1.TabIndex = 156;
             this.caQ6btn1.Text = "I. Basics of Sequential Logic Circuits";
-            this.caQ6btn1.UseVisualStyleBackColor = true;
+            this.caQ6btn1.UseVisualStyleBackColor = false;
+            this.caQ6btn1.Click += new System.EventHandler(this.caQ6btn1_Click);
             // 
             // panel2
             // 

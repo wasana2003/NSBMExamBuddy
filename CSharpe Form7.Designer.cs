@@ -92,43 +92,46 @@
             // 
             // csharpeQ6btn3
             // 
+            this.csharpeQ6btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.csharpeQ6btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ6btn3.Location = new System.Drawing.Point(302, 433);
             this.csharpeQ6btn3.Name = "csharpeQ6btn3";
             this.csharpeQ6btn3.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ6btn3.TabIndex = 252;
-            this.csharpeQ6btn3.Text = "Inserting Data into a Database";
-            this.csharpeQ6btn3.UseVisualStyleBackColor = true;
+            this.csharpeQ6btn3.Text = "III.Inserting Data into a Database";
+            this.csharpeQ6btn3.UseVisualStyleBackColor = false;
             // 
             // csharpeQ6btn2
             // 
+            this.csharpeQ6btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.csharpeQ6btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ6btn2.Location = new System.Drawing.Point(302, 311);
             this.csharpeQ6btn2.Name = "csharpeQ6btn2";
             this.csharpeQ6btn2.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ6btn2.TabIndex = 251;
-            this.csharpeQ6btn2.Text = "Connection Strings";
-            this.csharpeQ6btn2.UseVisualStyleBackColor = true;
+            this.csharpeQ6btn2.Text = "II.Connection Strings";
+            this.csharpeQ6btn2.UseVisualStyleBackColor = false;
             // 
             // csharpeQ6btn1
             // 
+            this.csharpeQ6btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.csharpeQ6btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ6btn1.Location = new System.Drawing.Point(302, 197);
             this.csharpeQ6btn1.Name = "csharpeQ6btn1";
             this.csharpeQ6btn1.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ6btn1.TabIndex = 250;
-            this.csharpeQ6btn1.Text = "Database connection using ADO.NET";
-            this.csharpeQ6btn1.UseVisualStyleBackColor = true;
+            this.csharpeQ6btn1.Text = "I.Database connection using ADO.NET";
+            this.csharpeQ6btn1.UseVisualStyleBackColor = false;
             // 
             // csharpeQ6btn4
             // 
-            this.csharpeQ6btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
+            this.csharpeQ6btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.csharpeQ6btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.csharpeQ6btn4.Location = new System.Drawing.Point(302, 555);
             this.csharpeQ6btn4.Name = "csharpeQ6btn4";
             this.csharpeQ6btn4.Size = new System.Drawing.Size(483, 43);
             this.csharpeQ6btn4.TabIndex = 253;
-            this.csharpeQ6btn4.Text = "Displaying Data Using DataGridView";
+            this.csharpeQ6btn4.Text = "IV.Displaying Data Using DataGridView";
             this.csharpeQ6btn4.UseVisualStyleBackColor = false;
             this.csharpeQ6btn4.Click += new System.EventHandler(this.csharpeQ6btn4_Click);
             // 

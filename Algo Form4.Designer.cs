@@ -173,46 +173,50 @@
             // 
             // algoQ4btn4
             // 
+            this.algoQ4btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ4btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ4btn4.Location = new System.Drawing.Point(302, 527);
             this.algoQ4btn4.Name = "algoQ4btn4";
             this.algoQ4btn4.Size = new System.Drawing.Size(483, 43);
             this.algoQ4btn4.TabIndex = 112;
             this.algoQ4btn4.Text = "IV. Expression trees and decision trees ";
-            this.algoQ4btn4.UseVisualStyleBackColor = true;
+            this.algoQ4btn4.UseVisualStyleBackColor = false;
             this.algoQ4btn4.Click += new System.EventHandler(this.algoQ4btn4_Click);
             // 
             // algoQ4btn3
             // 
+            this.algoQ4btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ4btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ4btn3.Location = new System.Drawing.Point(302, 420);
             this.algoQ4btn3.Name = "algoQ4btn3";
             this.algoQ4btn3.Size = new System.Drawing.Size(483, 43);
             this.algoQ4btn3.TabIndex = 111;
             this.algoQ4btn3.Text = "III. Binary trees and Binary search Trees";
-            this.algoQ4btn3.UseVisualStyleBackColor = true;
+            this.algoQ4btn3.UseVisualStyleBackColor = false;
             this.algoQ4btn3.Click += new System.EventHandler(this.algoQ4btn3_Click);
             // 
             // algoQ4btn2
             // 
+            this.algoQ4btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ4btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ4btn2.Location = new System.Drawing.Point(302, 310);
             this.algoQ4btn2.Name = "algoQ4btn2";
             this.algoQ4btn2.Size = new System.Drawing.Size(483, 43);
             this.algoQ4btn2.TabIndex = 110;
             this.algoQ4btn2.Text = "II. Tree traversals";
-            this.algoQ4btn2.UseVisualStyleBackColor = true;
+            this.algoQ4btn2.UseVisualStyleBackColor = false;
             this.algoQ4btn2.Click += new System.EventHandler(this.algoQ4btn2_Click);
             // 
             // algoQ4btn1
             // 
+            this.algoQ4btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.algoQ4btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.algoQ4btn1.Location = new System.Drawing.Point(302, 197);
             this.algoQ4btn1.Name = "algoQ4btn1";
             this.algoQ4btn1.Size = new System.Drawing.Size(483, 43);
             this.algoQ4btn1.TabIndex = 109;
             this.algoQ4btn1.Text = "I. Tree Basics and Terminology";
-            this.algoQ4btn1.UseVisualStyleBackColor = true;
+            this.algoQ4btn1.UseVisualStyleBackColor = false;
             this.algoQ4btn1.Click += new System.EventHandler(this.algoQ4btn1_Click);
             // 
             // panel2

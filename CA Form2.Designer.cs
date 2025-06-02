@@ -92,43 +92,47 @@
             // 
             // caQ2btn4
             // 
+            this.caQ2btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ2btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ2btn4.Location = new System.Drawing.Point(302, 527);
             this.caQ2btn4.Name = "caQ2btn4";
             this.caQ2btn4.Size = new System.Drawing.Size(483, 43);
             this.caQ2btn4.TabIndex = 135;
             this.caQ2btn4.Text = "IV. Applications and Analysis of Logic Circuits";
-            this.caQ2btn4.UseVisualStyleBackColor = true;
+            this.caQ2btn4.UseVisualStyleBackColor = false;
             // 
             // caQ2btn3
             // 
+            this.caQ2btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ2btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ2btn3.Location = new System.Drawing.Point(302, 420);
             this.caQ2btn3.Name = "caQ2btn3";
             this.caQ2btn3.Size = new System.Drawing.Size(483, 43);
             this.caQ2btn3.TabIndex = 134;
             this.caQ2btn3.Text = "III.  XOR, XNOR and Derived Logic Gates";
-            this.caQ2btn3.UseVisualStyleBackColor = true;
+            this.caQ2btn3.UseVisualStyleBackColor = false;
             // 
             // caQ2btn2
             // 
+            this.caQ2btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ2btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ2btn2.Location = new System.Drawing.Point(302, 311);
             this.caQ2btn2.Name = "caQ2btn2";
             this.caQ2btn2.Size = new System.Drawing.Size(483, 43);
             this.caQ2btn2.TabIndex = 133;
             this.caQ2btn2.Text = "II. Logic Gates: NOT, AND, OR";
-            this.caQ2btn2.UseVisualStyleBackColor = true;
+            this.caQ2btn2.UseVisualStyleBackColor = false;
             // 
             // caQ2btn1
             // 
+            this.caQ2btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ2btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ2btn1.Location = new System.Drawing.Point(302, 197);
             this.caQ2btn1.Name = "caQ2btn1";
             this.caQ2btn1.Size = new System.Drawing.Size(483, 43);
             this.caQ2btn1.TabIndex = 132;
             this.caQ2btn1.Text = "I. Basics of Digital Electronics";
-            this.caQ2btn1.UseVisualStyleBackColor = true;
+            this.caQ2btn1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 

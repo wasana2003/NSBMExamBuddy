@@ -92,43 +92,47 @@
             // 
             // dbmsQ6btn4
             // 
+            this.dbmsQ6btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ6btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ6btn4.Location = new System.Drawing.Point(302, 539);
             this.dbmsQ6btn4.Name = "dbmsQ6btn4";
             this.dbmsQ6btn4.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ6btn4.TabIndex = 89;
             this.dbmsQ6btn4.Text = "IV.SQL Joins and Multi-table Queries";
-            this.dbmsQ6btn4.UseVisualStyleBackColor = true;
+            this.dbmsQ6btn4.UseVisualStyleBackColor = false;
             // 
             // dbmsQ6btn3
             // 
+            this.dbmsQ6btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ6btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ6btn3.Location = new System.Drawing.Point(302, 420);
             this.dbmsQ6btn3.Name = "dbmsQ6btn3";
             this.dbmsQ6btn3.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ6btn3.TabIndex = 88;
             this.dbmsQ6btn3.Text = "III. SQL Aggregation and Grouping";
-            this.dbmsQ6btn3.UseVisualStyleBackColor = true;
+            this.dbmsQ6btn3.UseVisualStyleBackColor = false;
             // 
             // dbmsQ6btn2
             // 
+            this.dbmsQ6btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ6btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ6btn2.Location = new System.Drawing.Point(302, 310);
             this.dbmsQ6btn2.Name = "dbmsQ6btn2";
             this.dbmsQ6btn2.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ6btn2.TabIndex = 87;
             this.dbmsQ6btn2.Text = "II.SQL Queries and Filtering";
-            this.dbmsQ6btn2.UseVisualStyleBackColor = true;
+            this.dbmsQ6btn2.UseVisualStyleBackColor = false;
             // 
             // dbmsQ6btn1
             // 
+            this.dbmsQ6btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ6btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ6btn1.Location = new System.Drawing.Point(302, 197);
             this.dbmsQ6btn1.Name = "dbmsQ6btn1";
             this.dbmsQ6btn1.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ6btn1.TabIndex = 86;
             this.dbmsQ6btn1.Text = "I. SQL Basics and Data Definition";
-            this.dbmsQ6btn1.UseVisualStyleBackColor = true;
+            this.dbmsQ6btn1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 

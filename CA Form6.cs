@@ -23,5 +23,10 @@ namespace NSBMExamBuddy
             displayuser.Text = $"User :, {CurrentUser.Name}";
 
         }
+
+        private void caQ6btn1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

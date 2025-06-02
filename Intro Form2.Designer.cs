@@ -93,46 +93,50 @@
             // 
             // introQ2btn4
             // 
+            this.introQ2btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ2btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ2btn4.Location = new System.Drawing.Point(302, 539);
             this.introQ2btn4.Name = "introQ2btn4";
             this.introQ2btn4.Size = new System.Drawing.Size(483, 43);
             this.introQ2btn4.TabIndex = 29;
             this.introQ2btn4.Text = "IV. Hexadecimal Number System and Conversions";
-            this.introQ2btn4.UseVisualStyleBackColor = true;
+            this.introQ2btn4.UseVisualStyleBackColor = false;
             this.introQ2btn4.Click += new System.EventHandler(this.introQ2btn4_Click);
             // 
             // introQ2btn3
             // 
+            this.introQ2btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ2btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ2btn3.Location = new System.Drawing.Point(302, 420);
             this.introQ2btn3.Name = "introQ2btn3";
             this.introQ2btn3.Size = new System.Drawing.Size(483, 43);
             this.introQ2btn3.TabIndex = 28;
             this.introQ2btn3.Text = "III. Octal Number System and Conversions";
-            this.introQ2btn3.UseVisualStyleBackColor = true;
+            this.introQ2btn3.UseVisualStyleBackColor = false;
             this.introQ2btn3.Click += new System.EventHandler(this.introQ2btn3_Click);
             // 
             // introQ2btn2
             // 
+            this.introQ2btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ2btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ2btn2.Location = new System.Drawing.Point(302, 307);
             this.introQ2btn2.Name = "introQ2btn2";
             this.introQ2btn2.Size = new System.Drawing.Size(483, 43);
             this.introQ2btn2.TabIndex = 27;
             this.introQ2btn2.Text = "II. Binary Arithmetic (Addition & Subtraction)";
-            this.introQ2btn2.UseVisualStyleBackColor = true;
+            this.introQ2btn2.UseVisualStyleBackColor = false;
             this.introQ2btn2.Click += new System.EventHandler(this.introQ2btn2_Click);
             // 
             // introQ1btn1
             // 
+            this.introQ1btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.introQ1btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.introQ1btn1.Location = new System.Drawing.Point(302, 197);
             this.introQ1btn1.Name = "introQ1btn1";
             this.introQ1btn1.Size = new System.Drawing.Size(483, 43);
             this.introQ1btn1.TabIndex = 26;
             this.introQ1btn1.Text = "I. Decimal and Binary Number Systems";
-            this.introQ1btn1.UseVisualStyleBackColor = true;
+            this.introQ1btn1.UseVisualStyleBackColor = false;
             this.introQ1btn1.Click += new System.EventHandler(this.introQ1btn1_Click);
             // 
             // panel2

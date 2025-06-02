@@ -92,43 +92,47 @@
             // 
             // dbmsQ3btn4
             // 
+            this.dbmsQ3btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ3btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ3btn4.Location = new System.Drawing.Point(302, 539);
             this.dbmsQ3btn4.Name = "dbmsQ3btn4";
             this.dbmsQ3btn4.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ3btn4.TabIndex = 77;
             this.dbmsQ3btn4.Text = "IV.Combined Concepts in ER Modeling";
-            this.dbmsQ3btn4.UseVisualStyleBackColor = true;
+            this.dbmsQ3btn4.UseVisualStyleBackColor = false;
             // 
             // dbmsQ3btn3
             // 
+            this.dbmsQ3btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ3btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ3btn3.Location = new System.Drawing.Point(302, 420);
             this.dbmsQ3btn3.Name = "dbmsQ3btn3";
             this.dbmsQ3btn3.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ3btn3.TabIndex = 76;
             this.dbmsQ3btn3.Text = "III. Relationships in ER Diagrams";
-            this.dbmsQ3btn3.UseVisualStyleBackColor = true;
+            this.dbmsQ3btn3.UseVisualStyleBackColor = false;
             // 
             // dbmsQ3btn2
             // 
+            this.dbmsQ3btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ3btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ3btn2.Location = new System.Drawing.Point(302, 310);
             this.dbmsQ3btn2.Name = "dbmsQ3btn2";
             this.dbmsQ3btn2.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ3btn2.TabIndex = 75;
             this.dbmsQ3btn2.Text = "II.Keys in ER Models";
-            this.dbmsQ3btn2.UseVisualStyleBackColor = true;
+            this.dbmsQ3btn2.UseVisualStyleBackColor = false;
             // 
             // dbmsQ3btn1
             // 
+            this.dbmsQ3btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ3btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ3btn1.Location = new System.Drawing.Point(302, 197);
             this.dbmsQ3btn1.Name = "dbmsQ3btn1";
             this.dbmsQ3btn1.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ3btn1.TabIndex = 74;
             this.dbmsQ3btn1.Text = "I. Entities and Attributes";
-            this.dbmsQ3btn1.UseVisualStyleBackColor = true;
+            this.dbmsQ3btn1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 

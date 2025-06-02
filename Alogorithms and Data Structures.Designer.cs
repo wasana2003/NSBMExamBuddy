@@ -86,7 +86,7 @@
             // 
             // intro
             // 
-            this.intro.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.intro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(255)))));
             this.intro.Controls.Add(this.algo1btn);
             this.intro.Controls.Add(this.label5);
             this.intro.Controls.Add(this.label4);

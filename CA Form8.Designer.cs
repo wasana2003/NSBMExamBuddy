@@ -92,43 +92,47 @@
             // 
             // caQ8btn4
             // 
+            this.caQ8btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ8btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ8btn4.Location = new System.Drawing.Point(302, 526);
             this.caQ8btn4.Name = "caQ8btn4";
             this.caQ8btn4.Size = new System.Drawing.Size(483, 43);
             this.caQ8btn4.TabIndex = 171;
             this.caQ8btn4.Text = "IV. Addressing Modes in ISA";
-            this.caQ8btn4.UseVisualStyleBackColor = true;
+            this.caQ8btn4.UseVisualStyleBackColor = false;
             // 
             // caQ8btn3
             // 
+            this.caQ8btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ8btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ8btn3.Location = new System.Drawing.Point(302, 420);
             this.caQ8btn3.Name = "caQ8btn3";
             this.caQ8btn3.Size = new System.Drawing.Size(483, 43);
             this.caQ8btn3.TabIndex = 170;
             this.caQ8btn3.Text = "III. Popular ISA Implementations";
-            this.caQ8btn3.UseVisualStyleBackColor = true;
+            this.caQ8btn3.UseVisualStyleBackColor = false;
             // 
             // caQ8btn2
             // 
+            this.caQ8btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ8btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ8btn2.Location = new System.Drawing.Point(302, 311);
             this.caQ8btn2.Name = "caQ8btn2";
             this.caQ8btn2.Size = new System.Drawing.Size(483, 43);
             this.caQ8btn2.TabIndex = 169;
             this.caQ8btn2.Text = "II. RISC vs CISC Architectures";
-            this.caQ8btn2.UseVisualStyleBackColor = true;
+            this.caQ8btn2.UseVisualStyleBackColor = false;
             // 
             // caQ8tn1
             // 
+            this.caQ8tn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.caQ8tn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caQ8tn1.Location = new System.Drawing.Point(302, 197);
             this.caQ8tn1.Name = "caQ8tn1";
             this.caQ8tn1.Size = new System.Drawing.Size(483, 43);
             this.caQ8tn1.TabIndex = 168;
             this.caQ8tn1.Text = "I. Fundamentals of Instruction Set Architecture (ISA)";
-            this.caQ8tn1.UseVisualStyleBackColor = true;
+            this.caQ8tn1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 

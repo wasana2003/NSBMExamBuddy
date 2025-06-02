@@ -92,43 +92,47 @@
             // 
             // dbmsQ4btn4
             // 
+            this.dbmsQ4btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ4btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ4btn4.Location = new System.Drawing.Point(302, 539);
             this.dbmsQ4btn4.Name = "dbmsQ4btn4";
             this.dbmsQ4btn4.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ4btn4.TabIndex = 83;
             this.dbmsQ4btn4.Text = "IV.Mapping Attributes and Multivalued Fields";
-            this.dbmsQ4btn4.UseVisualStyleBackColor = true;
+            this.dbmsQ4btn4.UseVisualStyleBackColor = false;
             // 
             // dbmsQ4btn3
             // 
+            this.dbmsQ4btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ4btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ4btn3.Location = new System.Drawing.Point(302, 420);
             this.dbmsQ4btn3.Name = "dbmsQ4btn3";
             this.dbmsQ4btn3.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ4btn3.TabIndex = 82;
             this.dbmsQ4btn3.Text = "III. Mapping Relationships and Associations";
-            this.dbmsQ4btn3.UseVisualStyleBackColor = true;
+            this.dbmsQ4btn3.UseVisualStyleBackColor = false;
             // 
             // dbmsQ4btn2
             // 
+            this.dbmsQ4btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ4btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ4btn2.Location = new System.Drawing.Point(302, 310);
             this.dbmsQ4btn2.Name = "dbmsQ4btn2";
             this.dbmsQ4btn2.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ4btn2.TabIndex = 81;
             this.dbmsQ4btn2.Text = "II.Mapping Entity Types and Keys";
-            this.dbmsQ4btn2.UseVisualStyleBackColor = true;
+            this.dbmsQ4btn2.UseVisualStyleBackColor = false;
             // 
             // dbmsQ4btn1
             // 
+            this.dbmsQ4btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dbmsQ4btn1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dbmsQ4btn1.Location = new System.Drawing.Point(302, 197);
             this.dbmsQ4btn1.Name = "dbmsQ4btn1";
             this.dbmsQ4btn1.Size = new System.Drawing.Size(483, 43);
             this.dbmsQ4btn1.TabIndex = 80;
             this.dbmsQ4btn1.Text = "I. Introduction to ER-to-Relational Mapping";
-            this.dbmsQ4btn1.UseVisualStyleBackColor = true;
+            this.dbmsQ4btn1.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
