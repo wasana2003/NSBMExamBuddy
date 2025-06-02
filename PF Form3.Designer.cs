@@ -140,6 +140,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(90)))), ((int)(((byte)(192)))));
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.button4);
@@ -200,7 +201,7 @@
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.BlueViolet;
+            this.button6.BackColor = System.Drawing.Color.MediumPurple;
             this.button6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button6.Location = new System.Drawing.Point(0, 120);

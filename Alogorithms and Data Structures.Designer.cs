@@ -127,7 +127,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(255)))));
             this.panel4.Controls.Add(this.algo5btn);
             this.panel4.Controls.Add(this.label13);
             this.panel4.Location = new System.Drawing.Point(283, 406);
@@ -157,7 +157,7 @@
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(255)))));
             this.panel6.Controls.Add(this.algo6btn);
             this.panel6.Controls.Add(this.label14);
             this.panel6.Controls.Add(this.label15);
@@ -198,7 +198,7 @@
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(255)))));
             this.panel9.Controls.Add(this.label3);
             this.panel9.Controls.Add(this.algo7btn);
             this.panel9.Controls.Add(this.label21);
@@ -282,7 +282,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(255)))));
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.algo3btn);
@@ -322,7 +322,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(255)))));
             this.panel1.Controls.Add(this.algo2btn);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Location = new System.Drawing.Point(556, 190);
