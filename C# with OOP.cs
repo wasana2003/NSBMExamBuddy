@@ -13,6 +13,8 @@ namespace NSBMExamBuddy
 {
     public partial class C__with_OOP : Form
     {
+        private int userID;
+
         public C__with_OOP()
         {
             InitializeComponent();

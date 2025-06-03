@@ -36,8 +36,18 @@ namespace NSBMExamBuddy
             {
                 string Username = textname.Text;
                 string Password = textpassword.Text;
+                string Confirmpassword = textcpw.Text;
                 string Email = textemail.Text;
                 string Stream = stream.Text;
+
+                string ConfirmPassword = textcpw.Text; // <-- get value from Confirm Password textbox
+
+                if (Password != ConfirmPassword)
+                {
+                    MessageBox.Show("Password and Confirm Password do not match!", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return; // prevent execution of registration
+                }
+
 
                 //password validation dnnna one confirm ekt
 
