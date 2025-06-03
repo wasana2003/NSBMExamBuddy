@@ -13,6 +13,8 @@ namespace NSBMExamBuddy
 {
     public partial class Computer_Architechture : Form
     {
+        private int userID;
+
         public Computer_Architechture()
         {
             InitializeComponent();
@@ -83,6 +85,13 @@ namespace NSBMExamBuddy
         {
             displayuser.Text = $"User :, {CurrentUser.Name}";
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MainDashboard dashboard = new MainDashboard(userID);
+            dashboard.Show();
+            this.Hide();
         }
     }
 }

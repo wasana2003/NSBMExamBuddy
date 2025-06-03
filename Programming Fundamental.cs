@@ -13,6 +13,8 @@ namespace NSBMExamBuddy
 {
     public partial class Programming_Fundamental : Form
     {
+        private int userID;
+
         public Programming_Fundamental()
         {
             InitializeComponent();
@@ -112,6 +114,13 @@ namespace NSBMExamBuddy
         {
             Home home = new Home();
             home.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MainDashboard dashboard = new MainDashboard(userID);
+            dashboard.Show();
             this.Hide();
         }
     }

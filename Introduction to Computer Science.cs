@@ -13,6 +13,8 @@ namespace NSBMExamBuddy
 {
     public partial class Introduction_to_Computer_Science : Form
     {
+        private int userID;
+
         public Intro_Form1 Intro_Form1 { get; private set; }
         public Intro_Form2 Intro_Form2 { get; private set; }
         public Intro_Form3 Intro_Form3 { get; private set; }
@@ -83,6 +85,13 @@ namespace NSBMExamBuddy
         {
             Intro_Form7 = new Intro_Form7();
             Intro_Form7.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MainDashboard dashboard = new MainDashboard(userID);
+            dashboard.Show();
             this.Hide();
         }
     }

@@ -209,6 +209,7 @@
             this.dashboardbtn.TabIndex = 7;
             this.dashboardbtn.Text = "Dashboard";
             this.dashboardbtn.UseVisualStyleBackColor = false;
+            this.dashboardbtn.Click += new System.EventHandler(this.dashboardbtn_Click);
             // 
             // Algo_Form3
             // 

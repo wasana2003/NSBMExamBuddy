@@ -13,6 +13,8 @@ namespace NSBMExamBuddy
 {
     public partial class Mathematic_for_Computing : Form
     {
+        private int userID;
+
         public Mathematic_for_Computing()
         {
             InitializeComponent();
@@ -67,6 +69,13 @@ namespace NSBMExamBuddy
         private void maths5btn_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MainDashboard dashboard = new MainDashboard(userID);
+            dashboard.Show();
+            this.Hide();
         }
     }
 }

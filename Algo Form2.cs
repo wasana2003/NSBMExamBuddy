@@ -87,5 +87,12 @@ namespace NSBMExamBuddy
         {
 
         }
+
+        private void dashboardbtn_Click(object sender, EventArgs e)
+        {
+            MainDashboard dashboard = new MainDashboard(userID);
+            dashboard.Show();
+            this.Hide();
+        }
     }
 }

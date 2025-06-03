@@ -13,6 +13,8 @@ namespace NSBMExamBuddy
 {
     public partial class Alogorithms_and_Data_Structures : Form
     {
+        private int userID;
+
         public Alogorithms_and_Data_Structures()
         {
             InitializeComponent();
@@ -69,6 +71,13 @@ namespace NSBMExamBuddy
         {
             displayuser.Text = $"User :, {CurrentUser.Name}";
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MainDashboard dashboard = new MainDashboard(userID);
+            dashboard.Show();
+            this.Hide();
         }
     }
 }
