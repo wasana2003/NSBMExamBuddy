@@ -84,5 +84,10 @@ namespace NSBMExamBuddy
             dashboard.Show();
             this.Hide();
         }
+
+        private void displayuser_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

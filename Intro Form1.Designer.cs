@@ -67,6 +67,7 @@
             this.displayuser.Size = new System.Drawing.Size(48, 23);
             this.displayuser.TabIndex = 5;
             this.displayuser.Text = "User";
+            this.displayuser.Click += new System.EventHandler(this.displayuser_Click);
             // 
             // label1
             // 

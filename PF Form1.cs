@@ -27,7 +27,7 @@ namespace NSBMExamBuddy
 
         private void PF_Form1_Load(object sender, EventArgs e)
         {
-            displayuser.Text = $"User :, {CurrentUser.Name}";
+            displayuser.Text = $"User : {CurrentUser.Name}";
 
         }
 
@@ -102,6 +102,13 @@ namespace NSBMExamBuddy
         }
 
         private void button4_Click(object sender, EventArgs e)
+        {
+            User_Progress user_Progress = new User_Progress(userID);
+            user_Progress.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
             About_Form about_Form = new About_Form();
             about_Form.Show();

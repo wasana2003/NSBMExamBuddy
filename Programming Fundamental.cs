@@ -71,7 +71,7 @@ namespace NSBMExamBuddy
 
         private void pf5btn_Click(object sender, EventArgs e)
         {
-            PF_Form5 = new PF_Form5();
+            PF_Form5 = new PF_Form5(CurrentUser.ID);
             PF_Form5.Show();
             this.Hide();
         }
@@ -106,7 +106,7 @@ namespace NSBMExamBuddy
 
         private void Programming_Fundamental_Load_1(object sender, EventArgs e)
         {
-            displayuser.Text = $"User :, {CurrentUser.Name}";
+            displayuser.Text = $"User : {CurrentUser.Name}";
 
         }
 
@@ -122,6 +122,16 @@ namespace NSBMExamBuddy
             MainDashboard dashboard = new MainDashboard(userID);
             dashboard.Show();
             this.Hide();
+        }
+
+        private void pf3btn_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void displayuser_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -40,6 +40,7 @@
             this.submit = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.stream = new System.Windows.Forms.ComboBox();
+            this.mySqlCommand1 = new MySql.Data.MySqlClient.MySqlCommand();
             this.SuspendLayout();
             // 
             // label1
@@ -161,6 +162,13 @@
             this.stream.Size = new System.Drawing.Size(314, 32);
             this.stream.TabIndex = 11;
             // 
+            // mySqlCommand1
+            // 
+            this.mySqlCommand1.CacheAge = 0;
+            this.mySqlCommand1.Connection = null;
+            this.mySqlCommand1.EnableCaching = false;
+            this.mySqlCommand1.Transaction = null;
+            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -201,5 +209,6 @@
         private System.Windows.Forms.Button submit;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox stream;
+        private MySql.Data.MySqlClient.MySqlCommand mySqlCommand1;
     }
 }

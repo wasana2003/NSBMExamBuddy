@@ -113,6 +113,7 @@
             this.pf3btn.TabIndex = 11;
             this.pf3btn.Text = "Try";
             this.pf3btn.UseVisualStyleBackColor = true;
+            this.pf3btn.Click += new System.EventHandler(this.pf3btn_Click);
             // 
             // displayuser
             // 
@@ -123,6 +124,7 @@
             this.displayuser.Size = new System.Drawing.Size(48, 23);
             this.displayuser.TabIndex = 3;
             this.displayuser.Text = "User";
+            this.displayuser.Click += new System.EventHandler(this.displayuser_Click);
             // 
             // pictureBox1
             // 
@@ -188,6 +190,7 @@
             this.pf7btn.TabIndex = 11;
             this.pf7btn.Text = "Try";
             this.pf7btn.UseVisualStyleBackColor = true;
+            this.pf7btn.Click += new System.EventHandler(this.pf7btn_Click);
             // 
             // panel3
             // 
@@ -208,6 +211,7 @@
             this.pf4btn.TabIndex = 11;
             this.pf4btn.Text = "Try";
             this.pf4btn.UseVisualStyleBackColor = true;
+            this.pf4btn.Click += new System.EventHandler(this.pf4btn_Click);
             // 
             // label11
             // 
@@ -279,6 +283,7 @@
             this.pf5btn.TabIndex = 11;
             this.pf5btn.Text = "Try";
             this.pf5btn.UseVisualStyleBackColor = true;
+            this.pf5btn.Click += new System.EventHandler(this.pf5btn_Click);
             // 
             // label13
             // 
@@ -310,6 +315,7 @@
             this.pf6btn.TabIndex = 11;
             this.pf6btn.Text = "Try";
             this.pf6btn.UseVisualStyleBackColor = true;
+            this.pf6btn.Click += new System.EventHandler(this.pf6btn_Click);
             // 
             // label14
             // 
@@ -400,6 +406,7 @@
             this.pf8btn.TabIndex = 11;
             this.pf8btn.Text = "Try";
             this.pf8btn.UseVisualStyleBackColor = true;
+            this.pf8btn.Click += new System.EventHandler(this.pf8btn_Click);
             // 
             // panel8
             // 
@@ -431,6 +438,7 @@
             this.pf9btn.TabIndex = 11;
             this.pf9btn.Text = "Try";
             this.pf9btn.UseVisualStyleBackColor = true;
+            this.pf9btn.Click += new System.EventHandler(this.pf9btn_Click);
             // 
             // panel7
             // 

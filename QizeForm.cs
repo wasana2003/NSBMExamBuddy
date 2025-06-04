@@ -17,6 +17,7 @@ namespace NSBMExamBuddy
         //{
         //    InitializeComponent();
         //}
+
         private int score = 0;
         private int submoduleID;
         private int userID;
@@ -93,7 +94,7 @@ namespace NSBMExamBuddy
                 {56 , () => new SAD_Form3(userID) },
                 {57 , () => new SAD_Form4(userID) },
                 {58, () => new SAD_Form5(userID) },
-                {59 , () => new SAD_Form6(userID) },
+                {59 , () => new SAD_Form6(userID) }
 
     // 🔁 Add as many as you define forms for.
 };

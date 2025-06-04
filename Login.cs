@@ -23,13 +23,14 @@ namespace NSBMExamBuddy
 
         private void Login_Load(object sender, EventArgs e)
         {
-
+            pw.PasswordChar = '*';
         }
 
         private void signinbtn_Click(object sender, EventArgs e)
         {
             Register register = new Register();
             register.Show();
+            this.Hide();
         }
 
         public void loginbtn_Click(object sender, EventArgs e)
@@ -64,7 +65,7 @@ namespace NSBMExamBuddy
                     string query = "SELECT COUNT(*) FROM [User] WHERE Name = @Name AND Password = @Password";
                     SqlCommand cmd = new SqlCommand(query, con);
                     cmd.Parameters.AddWithValue("@Name", username);
-                    cmd.Parameters.AddWithValue("@Password", password); // If hashed, use ComputeSha256Hash(password)
+                    cmd.Parameters.AddWithValue("@Password", password);
 
                     int result = (int)cmd.ExecuteScalar();
 

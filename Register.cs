@@ -29,7 +29,7 @@ namespace NSBMExamBuddy
         }
 
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\user\OneDrive\Documents\NSBMExamBuddy.mdf;Integrated Security=True;Connect Timeout=30");
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
             try

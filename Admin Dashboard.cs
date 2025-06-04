@@ -47,5 +47,10 @@ namespace NSBMExamBuddy
             home.Show();
             this.Hide();
         }
+
+        private void Admin_Dashboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

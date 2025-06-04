@@ -32,7 +32,7 @@ namespace NSBMExamBuddy
 
         private void PF_Form8_Load(object sender, EventArgs e)
         {
-            displayuser.Text = $"User :, {CurrentUser.Name}";
+            displayuser.Text = $"User : {CurrentUser.Name}";
 
         }
 
